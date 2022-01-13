@@ -2288,6 +2288,7 @@ body {
 }
 
 .main-slider__title {
+    font-family: roboto;
     margin-bottom: 8px;
     padding-top: 150px;
     font-size: 14px;
@@ -2300,13 +2301,13 @@ body {
 
 .main-slider__info {
     margin-top: 22px;
-    font: 400 38px/1 Montserrat;
+    font: 400 25px/1 Roboto;
 }
 
 .main-slider__info-emphasis {
     display: block;
     margin-top: 7px;
-    font-size: 48px;
+    font-size: 40px;
     text-transform: uppercase;
 }
 
@@ -3764,7 +3765,7 @@ body {
     margin-top: 22px;
     margin-left: 18px;
     padding: 13px 24px;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 400;
 }
 
@@ -4019,8 +4020,10 @@ body {
 .yamm .dropdown-menu {
     position: absolute;
     top: 40px;
-    padding: 0;
-    background-color: #333;
+    padding: 10px;
+    background-color: #cf0e28;
+    opacity: 0.95;
+    border-radius: 12px;
 }
 
 .yamm .dropdown-menu ul {
@@ -4036,7 +4039,8 @@ body {
     padding: 10px 20px;
     line-height: 20px;
     color: #fff;
-    text-transform: uppercase;
+    font-size: 15px;
+    /* text-transform: uppercase; */
 }
 
 .yamm .dropdown-menu>li>a:hover,
@@ -4078,7 +4082,7 @@ body {
     display: block;
     padding-bottom: 7px;
     padding-left: 25px;
-    font-size: 14px;
+    font-size: 15px;
     color: #fff;
 }
 
@@ -4424,6 +4428,7 @@ body {
 }
 
 .top-bar {
+    background: #ebebf0;
     border-bottom: 1px solid #eee;
 }
 
@@ -4470,7 +4475,7 @@ body {
 }
 
 .header-menu-middle .header-navibox-2 li a {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .header-menu-middle.header .center-logo a {
@@ -4617,13 +4622,15 @@ body {
 .navbar-nav>li>a {
     margin: 0 1px;
     padding: 0 7px;
-    font: 700 13px Montserrat;
+    font: 700 13px Roboto;
     color: #444;
     border: 1px solid transparent;
     border-radius: 5px;
     -webkit-transition: color 0.3s ease-out;
     transition: color 0.3s ease-out;
-    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+    /* text-transform: uppercase; */
 }
 
 .navbar .navbar-nav>li>a .fa-bars {
@@ -5026,11 +5033,12 @@ summary {
  */
 
 [off-canvas] {
+    opacity: .99;
     position: fixed;
     display: none;
     color: white;
     /* Basic colors, overwrite this in your own css. */
-    background-color: black;
+    background-color: #d40e28;
     /* Basic background color, overwrite this in your own css. */
     overflow: hidden;
     overflow-y: auto;
@@ -5092,7 +5100,7 @@ html [off-canvas*=bottom] ul {
 [off-canvas*=left] {
     top: 0;
     left: 0;
-    width: 255px;
+    width: 300px;
     height: 100%;
 }
 
@@ -5188,7 +5196,8 @@ html [off-canvas*=open] {
     width: 100%;
     margin: 0;
     text-align: left;
-    text-transform: uppercase;
+    border-bottom: 1px solid rgb(245, 84, 84);
+    /* text-transform: uppercase; */
 }
 
 [off-canvas] li a {
@@ -5196,7 +5205,7 @@ html [off-canvas*=open] {
     float: none !important;
     width: 100%;
     margin: 0;
-    padding: 10px 20px;
+    padding: 15px 35px;
     color: #fff;
 }
 
