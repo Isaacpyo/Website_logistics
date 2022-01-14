@@ -4518,7 +4518,7 @@ body {
 
 .navbar-brand {
     height: auto;
-    padding: 21px 25px 6px 15px;
+    /* padding: 21px 25px 6px 15px; */
 }
 
 .header.scrolling-header .navbar.navbar-default.navbar-scrolling,
