@@ -152,7 +152,7 @@
 
 .btn-link {
     color: #444;
-    font-family: Montserrat;
+    font-family: 'Open Sans';
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1402,6 +1402,7 @@ body {
 
 .b-advantages-2__info {
     margin-top: 10px;
+    margin-right: 100px;
 }
 
 .b-advantages-2__decor {
@@ -1865,7 +1866,7 @@ body {
 }
 
 .b-contacts-1 {
-    font-family: Montserrat;
+    font-family: 'Open Sans';
     color: white;
 }
 
@@ -1958,7 +1959,7 @@ body {
 }
 
 .b-contacts-2 {
-    font-family: Montserrat;
+    font-family: 'Open Sans';
 }
 
 .b-contacts-2__item {
@@ -2289,7 +2290,7 @@ body {
 }
 
 .main-slider__title {
-    font-family: roboto;
+    font-family: 'Open Sans';
     margin-bottom: 8px;
     padding-top: 150px;
     font-size: 14px;
@@ -3096,7 +3097,7 @@ body {
 .b-progress-list {
     margin-bottom: 0;
     padding-top: 0;
-    font-family: Montserrat;
+    font-family: 'Open Sans';
     color: #fff;
     text-transform: uppercase;
 }
@@ -3202,7 +3203,7 @@ body {
 }
 
 .b-reviews-1__header {
-    font-family: Montserrat;
+    font-family: 'Open Sans';
 }
 
 .b-reviews-1__foto {
@@ -3748,7 +3749,7 @@ body {
     display: inline-block;
     margin-top: 3px;
     margin-left: 31px;
-    font-family: Montserrat;
+    font-family: 'Open Sans';
 }
 
 .header-contact .icon {
@@ -5570,7 +5571,7 @@ html [off-canvas*=open] {
     display: block;
     padding-top: 10px;
     padding-bottom: 13px;
-    font-family: Montserrat;
+    font-family: 'Open Sans';
     color: #444;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
