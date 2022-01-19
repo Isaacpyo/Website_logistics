@@ -67,7 +67,11 @@
     }
     .b-contacts-1 .b-contacts-1__item {
         margin-bottom: 20px;
-        border-right: 1px solid #fff;
+        /* border-bottom: 0.5px solid #fff; */
+    }
+    .b-contacts-2__item {
+        margin-bottom: 20px;
+        /* border-bottom: 0.5px solid #fff; */
     }
     .header .social-net {
         margin-right: 0;

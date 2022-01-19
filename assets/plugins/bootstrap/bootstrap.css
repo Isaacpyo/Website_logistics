@@ -152,7 +152,7 @@ input,
 optgroup,
 select,
 textarea {
-    color: inherit;
+    color: #000;
     font: inherit;
     margin: 0;
 }
@@ -242,9 +242,6 @@ td,
 th {
     padding: 0;
 }
-
-
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
     *,
@@ -2105,6 +2102,7 @@ output {
     -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     margin-bottom: 20px;
+    border-radius: 3px;
     padding: 10px 22px 11px;
 }
 
@@ -2984,6 +2982,12 @@ fieldset[disabled] .btn-info.active {
     border-color: #eea236;
 }
 
+.btn-warning-2 {
+    color: #ffffff;
+    background-color: #1d0408;
+    border-color: #e91531;
+}
+
 .btn-warning:focus,
 .btn-warning.focus {
     color: #ffffff;
@@ -3612,7 +3616,7 @@ tbody.collapse.in {
 
 .input-group {
     position: relative;
-    display: table;
+    /* display: table; */
     border-collapse: separate;
 }
 
