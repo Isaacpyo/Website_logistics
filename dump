@@ -429,3 +429,96 @@
 <!-- ==========================-->
 <!-- MOBILE MENU-->
 <!-- ==========================-->
+
+<!-- <li class="dropdown current">
+                                    <a href="index.html">Home</a>
+                                    <ul>
+                                        <li>
+                                            <a href="index.html">Home One</a>
+                                        </li>
+                                        <li><a href="index2.html">Home Two</a></li>
+                                        <li><a href="index3.html">Home Three</a></li>
+                                        <li class="dropdown">
+                                            <a href="#">Header Styles</a>
+                                            <ul>
+                                                <li><a href="index.html">Header One</a></li>
+                                                <li><a href="index2.html">Header Two</a></li>
+                                                <li><a href="index3.html">Header Three</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li> -->
+
+
+<!-- Newsletter -->
+<div class="section-contacts-1 bg-primary wow">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="b-contacts-1 block-table">
+                    <div class="b-contacts-1__item block-table__cell">
+                        <div class="b-contacts-1__info">Subscribe to our</div>
+                        <p class="b-contacts-1__info">Newsletter</p>
+                        <p class="color-white">Stay current with our latest insights</p>
+                    </div>
+                    <form class="mt-4" action="" method="post" target="_blank" novalidate="">
+                        <div class="row align-items-center ">
+                            <div class="col-md-7 pr-md-0 b-contacts-2__item ">
+                                <div class="input-group b-contacts-1__item">
+                                    <input class="form-control" type="email" name="EMAIL" placeholder="Enter Email Here"> </div>
+                            </div>
+                            <div class="col-md-4 mt-3 mt-md-0 b-contacts-2__item">
+                                <input class="btn btn-warning-2 btn-block color-primary" type="submit" value="Subscribe" name="subscribe">
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Newsletter -->
+
+<!-- <div class="row">
+                            <div class="col-md-6">
+                                <select class="selectpicker">
+                                    <option>Your Location 1</option>
+                                    <option>Your Location 2</option>
+                                    <option>Your Location 3</option>
+                                    <option>Your Location</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <select class="selectpicker">
+                                    <option>Destination</option>
+                                    <option>Destination 1</option>
+                                    <option>Destination 2</option>
+                                    <option>Destination 3</option>
+                                </select>
+                            </div>
+                        </div> -->
+
+/*
+<link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+<link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
+<link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+<link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+<link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+<link rel="stylesheet" href="assets/vendors/" />
+<link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+<link rel="stylesheet" href="assets/vendors/" />
+<link rel="stylesheet" href="assets/vendors/" />
+<link rel="stylesheet" href="assets/vendors/">
+<link rel="stylesheet" href="assets/vendors/" />
+<link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
+<link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
+<link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
+<link rel="stylesheet" href="assets/vendors/" />
+<link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
+<link rel="stylesheet" href="assets/vendors/" />
+<link rel="stylesheet" href="assets/vendors/" />
+<link rel="stylesheet" href="assets/vendors/" /> */
