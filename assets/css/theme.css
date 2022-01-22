@@ -1175,7 +1175,7 @@ input:-ms-input-placeholder {
 /* ======= GLOBAL ======= */
 
 body {
-    background-color: #222;
+    background-color: rgb(255, 255, 255);
 }
 
 .l-theme {
@@ -5431,7 +5431,7 @@ html [off-canvas*=open] {
     bottom: 5px;
     left: 5px;
     border: 3px solid transparent;
-    border-top-color: #71383e;
+    border-top-color: #801b25;
     -webkit-animation: spin 2s infinite linear;
     animation: spin 2s infinite linear;
 }
@@ -5442,7 +5442,7 @@ html [off-canvas*=open] {
     bottom: 15px;
     left: 15px;
     border: 3px solid transparent;
-    border-top-color: #efa96b;
+    border-top-color: #020088;
     -webkit-animation: spin 1s infinite linear;
     animation: spin 1s infinite linear;
 }
