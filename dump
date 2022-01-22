@@ -522,3 +522,12 @@
 <link rel="stylesheet" href="assets/vendors/" />
 <link rel="stylesheet" href="assets/vendors/" />
 <link rel="stylesheet" href="assets/vendors/" /> */
+
+
+<li class="dropdown">
+    <a href="#">News</a>
+    <ul>
+        <li><a href="news.html">News</a></li>
+        <li><a href="news-details.html">News Details</a></li>
+    </ul>
+</li>

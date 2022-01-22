@@ -157,9 +157,9 @@
         min-height: 99px !important;
         overflow: hidden;
     }
-    .main-menu {
+    /* .main-menu {
         display: none !important;
-    }
+    } */
     .top-bar,
     #nav .nav {
         display: none !important;

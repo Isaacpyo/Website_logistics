@@ -750,7 +750,7 @@
     }
     .main-slider h2 {
         font-size: 40px;
-        line-height: 50px;
+        line-height: 30px;
     }
     .main-slider p {
         font-size: 21px;
@@ -761,7 +761,7 @@
         display: none;
     }
     .main-slider .container {
-        padding-top: 284px;
+        padding-top: 200px;
     }
     .main-slider__nav-two {
         display: none;
