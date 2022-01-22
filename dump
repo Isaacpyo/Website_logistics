@@ -1,0 +1,431 @@
+<div off-canvas="mobile-slidebar left overlay">
+    <a href="home.html" class="navbar-brand scroll">
+        <img src="assets/media/general/Mugaal_logo_white.png" alt="logo" class="normal-logo img-responsive" />
+    </a>
+    <ul class="nav navbar-nav">
+        <!-- <li class="dropdown"><a data-toggle="dropdown" href="home.html" class="dropdown-toggle">Home<b class="caret"></b></a>
+                    <ul role="menu" aria-labelledby="dropdownMenu" class="dropdown-menu">
+                        <li><a href="home.html" tabindex="-1">Home - ver.01</a></li>
+                        <li><a href="home-2.html" tabindex="-1">Home - ver.02</a></li>
+                    </ul>
+                </li> -->
+        <li><a href="about.html">About us</a></li>
+        <li class="dropdown"><a data-toggle="dropdown" href="services-1.html" class="dropdown-toggle">Services<b class="caret"></b></a>
+            <ul role="menu" class="dropdown-menu">
+                <li><a href="services-1.html" tabindex="-1">Services - ver.01</a></li>
+                <li><a href="services-2.html" tabindex="-1">Services - ver.02</a></li>
+                <li><a href="service-details.html" tabindex="-1">Service details</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a data-toggle="dropdown" href="post-1.html" class="dropdown-toggle">News<b class="caret"></b></a>
+        </li>
+        <li><a href="contact.html">Contact us</a></li>
+        <!-- <li class="dropdown"><a data-toggle="dropdown" href="post-1.html" class="dropdown-toggle">Pages<b class="caret"></b></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="404-1.html" tabindex="-1">404-1</a></li>
+                        <li><a href="404-2.html" tabindex="-1">404-2</a></li>
+                        <li><a href="branches.html" tabindex="-1">Branches</a></li>
+                        <li><a href="pricing.html" tabindex="-1">Pricing</a></li>
+                        <li><a href="typography.html" tabindex="-1">Typography</a></li>
+                    </ul>
+                </li> -->
+    </ul>
+</div>
+<!-- end mobile menu-->
+
+
+<header class="header header-topbar-view header-logo-white header-topbarbox-1-left header-topbarbox-2-right header-navibox-1-left header-navibox-2-right header-navibox-3-right navbar-fixed-top">
+    <div class="top-bar clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="header-topbarbox-1">
+                        <ul class="social-net list-inline">
+                            <li class="social-net__item"><a href="twitter.com" class="social-net__link"><i class="icon fa fa-twitter"></i></a></li>
+                            <li class="social-net__item"><a href="facebook.com" class="social-net__link"><i class="icon fa fa-facebook"></i></a></li>
+                            <li class="social-net__item"><a href="youtube.com" class="social-net__link"><i class="icon fa fa-youtube-play"></i></a></li>
+
+                        </ul>
+                        <!-- end social-list-->
+                    </div>
+                    <div class="header-topbarbox-2">
+                        <div class="header-contact">
+                            <div class="header-contact__item"><i class="icon fa fa-phone"></i> 0803 110 3211</div>
+                            <div class="header-contact__item"><i class="icon fa fa-envelope-o"></i> inquiry@mugaal.com</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end top-bar-->
+
+    <!-- <nav id="nav" class="navbar header-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="header-navibox-1">
+                                
+                                <button class="menu-mobile-button visible-xs-block js-toggle-mobile-slidebar toggle-menu-button"><i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i></button>
+                                <a href="index.html" class="navbar-brand scroll"><img src="assets/media/general/Mugaal_logo.png" alt="Logo" class="normal-logo logo__img img-responsive" /><img src="assets/media/general/Mugaal_logo.png" alt="logo" class="scroll-logo logo__img img-responsive hidden-xs"
+                                    /></a>
+                            </div>
+                            <div class="header-nav header-navibox-2"><a href="home.html" class="header-main__btn btn btn-primary btn-effect">Get a Free Quote</a></div>
+                            <div class="header-navibox-3">
+                                <ul class="main-menu nav navbar-nav yamm">
+                                    <li><a href="about.html">About us</a></li>
+                                    <li class="dropdown"><a data-toggle="dropdown" href="services-1.html" class="dropdown-toggle">Services<b class="caret"></b></a>
+                                        <ul role="menu" class="dropdown-menu">
+                                            <li><a href="services-1.html" tabindex="-1">Global Freight</a></li>
+                                            <li><a href="" tabindex="-1">Cargo Courier Parcel</a></li>
+                                            <li><a href="" tabindex="-1">Haulage & Transportation</a></li>
+                                            <li><a href="" tabindex="-1">Warehousing & Distribution</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a data-toggle="dropdown" href="post-1.html" class="dropdown-toggle">News</a>
+
+                                    </li>
+                                    <li><a href="contact.html">Contact us</a></li>
+
+                                </ul>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav> -->
+    <nav class="main-menu clearfix">
+        <div class="main-menu-wrapper clearfix">
+            <div class="main-menu-wrapper__left">
+                <div class="main-menu-wrapper__logo">
+                    <a href="index.html"><img src="assets/images/resources/logo-1.png" alt=""></a>
+                </div>
+                <div class="main-menu-wrapper__main-menu">
+                    <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                    <ul class="main-menu__list">
+                        <li class="dropdown current">
+                            <a href="index.html">Home</a>
+                            <ul>
+                                <li>
+                                    <a href="index.html">Home One</a>
+                                </li>
+                                <li><a href="index2.html">Home Two</a></li>
+                                <li><a href="index3.html">Home Three</a></li>
+                                <li class="dropdown">
+                                    <a href="#">Header Styles</a>
+                                    <ul>
+                                        <li><a href="index.html">Header One</a></li>
+                                        <li><a href="index2.html">Header Two</a></li>
+                                        <li><a href="index3.html">Header Three</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Services</a>
+                            <ul>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="consumer-product.html">Consumer Product</a></li>
+                                <li><a href="audit-marketing.html">Audit Marketing</a></li>
+                                <li><a href="banking-advising.html">Banking Advising</a></li>
+                                <li><a href="business-growth.html">Business Growth</a></li>
+                                <li><a href="financial-advice.html">Financial Advice</a></li>
+                                <li><a href="marketing-rules.html">Marketing Rules</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="dropdown">
+                            <a href="#">Cases</a>
+                            <ul>
+                                <li><a href="cases.html">Cases</a></li>
+                                <li><a href="case-single.html">Case Single</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">News</a>
+                            <ul>
+                                <li><a href="news.html">News</a></li>
+                                <li><a href="news-details.html">News Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-menu-wrapper__right">
+                <div class="main-menu-wrapper__search-cat">
+                    <a href="#" class="main-menu-wrapper__search search-toggler icon-magnifying-glass"></a>
+
+                </div>
+                <div class="main-menu-wrapper__call">
+                    <div class="main-menu-wrapper__call-icon">
+                        <span class="icon-phone"></span>
+                    </div>
+                    <div class="main-menu-wrapper__call-number">
+                        <p>Call Anytime</p>
+                        <h5><a href="tel:1307776-0608">+ 1 (307) 776-0608</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+</header>
+<!-- end header-->
+
+
+<!-- <div id="main-slider" data-slider-width="100%" data-slider-height="550px" data-slider-arrows="" data-slider-buttons="false" class="main-slider slider-pro">
+            <div class="sp-slides">
+              
+                <div class="sp-slide"><img src="assets/media/components/b-main-slider/bg-1.jpg" alt="slider" class="sp-image" width="" />
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1 col-xs-12">
+                                <div data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="800" data-show-delay="400" data-hide-delay="400" class="sp-layer">
+                                    <h2 class="main-slider__title">Welcome to Mugaal</h2>
+                                    <div class="ui-decor-1"></div>
+                                </div>
+                                <div data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="800" data-show-delay="400" data-hide-delay="400" class="main-slider__info sp-layer">We Provide the Highest Quality<span class="main-slider__info-emphasis">logistic services</span></div>
+                                <div data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="800" data-show-delay="400" data-hide-delay="400" class="sp-layer"><a href="services.html" class="main-slider__btn btn btn-primary btn-sm btn-effect">Our Services</a><a href="about.html" class="main-slider__btn main-slider__btn_white btn btn-sm btn-effect">About Company</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="sp-slide"><img src="assets/media/components/b-main-slider/bg-2.jpg" alt="slider" class="sp-image" />
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1 col-xs-12">
+                                <div data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="800" data-show-delay="400" data-hide-delay="400" class="sp-layer">
+                                    <h2 class="main-slider__title">Welcome to Mugaal</h2>
+                                    <div class="ui-decor-1"></div>
+                                </div>
+                                <div data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="800" data-show-delay="400" data-hide-delay="400" class="main-slider__info sp-layer">We have a comprehensive portfolio of<span class="main-slider__info-emphasis">freight & logistics <br> services</span></div>
+                                <div data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="800" data-show-delay="400" data-hide-delay="400" class="sp-layer"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+<!-- end main-slider-->
+
+
+
+<div data-stellar-background-ratio="0.4" data-stellar-vertical-offset="0" class="section-progress section-progress_bg-1 section-bg section-bg_dark parallax wow">
+    <div class="section-bg__inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="b-progress-list b-progress-list_mod-a list-unstyled">
+                        <li class="b-progress-list__item clearfix">
+                            <div class="b-progress-list__wrap"><i class="b-progress-list__icon flaticon-package-4"></i>
+                                <div class="b-progress-list__inner"><span data-percent="10000" class="b-progress-list__percent js-chart"><span class="js-percent"></span></span><span class="b-progress-list__name">packages delivered</span></div>
+                            </div>
+                        </li>
+                        <li class="b-progress-list__item clearfix">
+                            <div class="b-progress-list__wrap"><i class="b-progress-list__icon flaticon-package"></i>
+                                <div class="b-progress-list__inner"><span data-percent="10" class="b-progress-list__percent js-chart"><span class="js-percent"></span></span><span class="b-progress-list__name">store locations</span></div>
+                            </div>
+                        </li>
+                        <li class="b-progress-list__item clearfix">
+                            <div class="b-progress-list__wrap"><i class="b-progress-list__icon flaticon-truck-2"></i>
+                                <div class="b-progress-list__inner"><span data-percent="55" class="b-progress-list__percent js-chart"><span class="js-percent"></span></span><span class="b-progress-list__name">logistics vehicles</span></div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end section-progress-->
+
+
+<!-- <section class="section-default wow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="ui-subtitle-block ui-subtitle-block_first">we are modern<br> logistics company</div>
+                        <h2 class="ui-title-block"><span class="ui-title-block__emphasis">Latest</span> News</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <article class="b-post-2 clearfix">
+                            <div class="entry-media">
+                                <a href="assets/media/content/posts/555x285/1.jpg" class="js-zoom-images"><img src="assets/media/content/posts/555x285/1.jpg" alt="Foto" class="img-responsive" /></a>
+                            </div>
+                            <div class="entry-main">
+                                <div class="entry-meta"><span class="entry-meta__item"><a href="post-1.html" class="entry-meta__link">31 may 2016</a></span><span class="entry-meta__item"><a href="post-1.html" class="entry-meta__link">7 comments</a></span></div>
+                                <div class="entry-header">
+                                    <h2 class="entry-title ui-title-inner">Eiusmod tempor incididunt adipisicing elit sed usdo volputate lorem ipsum dolor sit amet dolor</h2>
+                                    <div class="ui-decor-1"></div>
+                                </div>
+                            </div>
+                        </article>
+                        
+
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="post-group-2">
+                            <article class="b-post-3 clearfix">
+                                <div class="entry-media">
+                                    <a href="assets/media/content/posts/100x90/1.jpg" class="js-zoom-images"><img src="assets/media/content/posts/100x90/1.jpg" alt="Foto" class="img-responsive" /></a>
+                                </div>
+                                <div class="entry-main">
+                                    <div class="entry-meta"><span class="entry-meta__item"><a href="post-1.html" class="entry-meta__link">07 JUNE 2016</a></span><span class="entry-meta__item"><a href="post-1.html" class="entry-meta__link">25 comments</a></span></div>
+                                    <div class="entry-header">
+                                        <h2 class="entry-title ui-title-inner">Adipisicing elit sed do eiusmod tempor incididunt volp lorem ipsum dolor sit amet dolor </h2>
+                                        <div class="ui-decor-1"></div>
+                                    </div>
+                                </div>
+                            </article>
+                            
+
+                            <article class="b-post-3 clearfix">
+                                <div class="entry-media">
+                                    <a href="assets/media/content/posts/100x90/2.jpg" class="js-zoom-images"><img src="assets/media/content/posts/100x90/2.jpg" alt="Foto" class="img-responsive" /></a>
+                                </div>
+                                <div class="entry-main">
+                                    <div class="entry-meta"><span class="entry-meta__item"><a href="post-1.html" class="entry-meta__link">19 JUNE 2016</a></span><span class="entry-meta__item"><a href="post-1.html" class="entry-meta__link">3 comments</a></span></div>
+                                    <div class="entry-header">
+                                        <h2 class="entry-title ui-title-inner">Tempor incididunt ut labore et dolore magna proident uet enim ad minim et tempor veniam</h2>
+                                        <div class="ui-decor-1"></div>
+                                    </div>
+                                </div>
+                            </article>
+                           
+
+                            <article class="b-post-3 clearfix">
+                                <div class="entry-media">
+                                    <a href="assets/media/content/posts/100x90/3.jpg" class="js-zoom-images"><img src="assets/media/content/posts/100x90/3.jpg" alt="Foto" class="img-responsive" /></a>
+                                </div>
+                                <div class="entry-main">
+                                    <div class="entry-meta"><span class="entry-meta__item"><a href="post-1.html" class="entry-meta__link">23 JUNE 2016</a></span><span class="entry-meta__item"><a href="post-1.html" class="entry-meta__link">68 comments</a></span></div>
+                                    <div class="entry-header">
+                                        <h2 class="entry-title ui-title-inner">Henderitn voluptate velit esa cillum dolore fugiat fugat ut nulla pariatur excepteur sint esse</h2>
+                                        <div class="ui-decor-1"></div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div><a href="post-1.html" class="b-post-3__link-all btn-link btn-link-sm">read more news<i class="icon fa fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+<!-- end section-default-->
+
+<!-- <div class="section-brands section-brands_bg-1 wow">
+            <div class="section-brands__inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="b-brands b-brands_mod-a">
+                                <div class="b-brands__item"><img src="assets/media/components/b-brands/1.jpg" alt="logo" class="img-responsive" /></div>
+                                <div class="b-brands__item"><img src="assets/media/components/b-brands/2.jpg" alt="logo" class="img-responsive" /></div>
+                                <div class="b-brands__item"><img src="assets/media/components/b-brands/3.jpg" alt="logo" class="img-responsive" /></div>
+                                <div class="b-brands__item"><img src="assets/media/components/b-brands/4.jpg" alt="logo" class="img-responsive" /></div>
+                                <div class="b-brands__item"><img src="assets/media/components/b-brands/5.jpg" alt="logo" class="img-responsive" /></div>
+                                <div class="b-brands__item"><img src="assets/media/components/b-brands/6.jpg" alt="logo" class="img-responsive" /></div>
+                            </div>
+                           
+
+
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+<!-- end section-brands-->
+
+<footer class="footer">
+    <div class="footer__main section-bg section-bg_dark parallax-bg">
+        <ul class="bg-slideshow">
+            <li>
+                <div style="background-image:url(assets/media/components/footer/bg.jpg)" class="bg-slide"></div>
+            </li>
+        </ul>
+        <div class="section-bg__inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <section class="footer-section">
+                            <h3 class="footer-section__title ui-title-type-1">contact details</h3>
+                            <div class="ui-decor-1"></div>
+                            <div class="footer__info">
+                                <p>Tempor incididunt ut labore dolore magna aliqua sed ipsum dolor sit consectetur adipisicing elit volupate ese dseiusmod ullamco laboris aliquip mao consequad.</p>
+                            </div>
+                            <div class="footer__contact"><i class="icon fa fa-map-marker"></i> F/F Plaza by Ascon filling station, Lagos State
+                            </div>
+                            <div class="footer__contact"><i class="icon fa fa-phone"></i> 08031103211, 08167137044</div>
+                            <div class="footer__contact"><i class="icon fa fa-envelope-o"></i> inquiry@mugaal.com</div>
+                        </section>
+                    </div>
+                    <div class="col-md-3">
+                        <section class="footer-section">
+                            <h3 class="footer-section__title ui-title-type-1">what we do</h3>
+                            <div class="ui-decor-1"></div>
+                            <ul class="footer-list list list-mark-4">
+                                <li class="footer-list__item"><a href="services.html" class="footer-list__link">Sea Freight</a></li>
+                                <li class="footer-list__item"><a href="services.html" class="footer-list__link">Road Transport</a></li>
+                                <li class="footer-list__item"><a href="services.html" class="footer-list__link">Air Freight</a></li>
+                                <li class="footer-list__item"><a href="services.html" class="footer-list__link">Items Storage</a></li>
+                                <li class="footer-list__item"><a href="services.html" class="footer-list__link">Warehousing</a></li>
+                                <li class="footer-list__item"><a href="services.html" class="footer-list__link">Delivery Handling</a></li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="col-md-3">
+                        <section class="footer-section">
+                            <h3 class="footer-section__title ui-title-type-1">site links</h3>
+                            <div class="ui-decor-1"></div>
+                            <ul class="footer-list list list-mark-4">
+                                <li class="footer-list__item"><a href="home.html" class="footer-list__link">Home Page</a></li>
+                                <li class="footer-list__item"><a href="pricing.html" class="footer-list__link">Request Quote</a></li>
+                                <li class="footer-list__item"><a href="about.html" class="footer-list__link">About Mugaal</a></li>
+                                <li class="footer-list__item"><a href="services.html" class="footer-list__link">Customer Care</a></li>
+                            </ul>
+                        </section>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer__main-->
+
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-5">© 2022<span class="copyright__emphasis"> Mugaal</span> All rights reserved.</div>
+                <div class="col-lg-4 col-md-2">
+                    <ul class="social-net list-inline">
+                        <li class="social-net__item"><a href="twitter.com" class="social-net__link"><i class="icon fa fa-twitter"></i></a></li>
+                        <li class="social-net__item"><a href="facebook.com" class="social-net__link"><i class="icon fa fa-facebook"></i></a></li>
+                        <li class="social-net__item"><a href="instagram.com" class="social-net__link"><i class="icon fa fa-instagram"></i></a></li>
+                    </ul>
+                    <!-- end social-list-->
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="copyright-links"><a href="terms-of-use.html" class="copyright-links__item"> Terms of Use</a><a href="privacy-policy.html" class="copyright-links__item"> Privacy Policy</a><a href="terms-of-use.html" class="copyright-links__item"> Tracking</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end copyright-->
+</footer>
+<!-- end footer-->
+
+
+
+
+<!-- <div data-header="sticky" data-header-top="200" class="l-theme animated-css"> -->
+
+
+<!-- ==========================-->
+<!-- MOBILE MENU-->
+<!-- ==========================-->

@@ -9,26 +9,86 @@ Primary use:  Sputnik
 
 
 /* FONTS*/
+
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:400,700,900);
 @import url('../fonts/font-awesome-4.5.0/css/font-awesome.min.css');
 @import url('../fonts/pe/css/pe-icon-7-stroke.css');
 @import url('../fonts/elegant/style.css');
 @import url('../fonts/flaticon/flaticon.css');
 
-
-
 /* PLUGIN CSS */
 
-@import url('../plugins/bootstrap/bootstrap.css');                /* bootstrap */
-@import url('../plugins/bootstrap-select/dist/css/bootstrap-select.css');   /* select customization */
-@import url('../plugins/slider-pro/slider-pro.css');         /* main slider */
-@import url('../plugins/owl-carousel/owl.theme.css');                 /* other sliders */
-@import url('../plugins/magnific-popup/magnific-popup.css');            /* modal */
-@import url('../plugins/animate/animate.css');                        /* animations */
-@import url('../plugins/parallax/parallax.css');                        /* parallax */
-@import url('../plugins/flowplayer/skin/playful.css');          /* video-player */
-@import url('../plugins/validation/validation-2.2.min.css');          /* validation */
+@import url('../plugins/bootstrap/bootstrap.css');
 
+/* bootstrap */
+
+@import url('../plugins/bootstrap-select/dist/css/bootstrap-select.css');
+
+/* select customization */
+
+@import url('../plugins/slider-pro/slider-pro.css');
+
+/* main slider */
+
+@import url('../plugins/owl-carousel/owl.theme.css');
+
+/* other sliders */
+
+@import url('../plugins/magnific-popup/magnific-popup.css');
+
+/* modal */
+
+@import url('../plugins/animate/animate.css');
+
+/* animations */
+
+@import url('../plugins/parallax/parallax.css');
+
+/* parallax */
+
+@import url('../plugins/flowplayer/skin/playful.css');
+
+/* video-player */
+
+@import url('../plugins/validation/validation-2.2.min.css');
+
+/* validation */
+
+@import url('../plugins/animate/custom-animate.css');
+@import url('../plugins/fontawesome/css/all.min.css');
+@import url('../plugins/jarallax/jarallax.css');
+@import url('../plugins/nouislider/nouislider.min.css');
+@import url('../plugins/nouislider/nouislider.pips.css');
+@import url('../plugins/odometer/odometer.min.css');
+@import url('../plugins/swiper/swiper.min.css');
+@import url('../plugins/conult-icons/style.css');
+@import url('../plugins/tiny-slider/tiny-slider.min.css');
+@import url('../plugins/reey-font/stylesheet.css');
+@import url('../plugins/bxslider/jquery.bxslider.css');
+@import url('../plugins/vegas/vegas.min.css');
+@import url('../plugins/timepicker/timePicker.css');
+@import url('../plugins/jquery-ui/jquery-ui.css');
+
+/* <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="assets/vendors/" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+    <link rel="stylesheet" href="assets/vendors/" />
+    <link rel="stylesheet" href="assets/vendors/" />
+    <link rel="stylesheet" href="assets/vendors/">
+    <link rel="stylesheet" href="assets/vendors/" />
+    <link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/vendors/" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="assets/vendors/" />
+    <link rel="stylesheet" href="assets/vendors/" />
+    <link rel="stylesheet" href="assets/vendors/" /> */
 
 
 /* MAIN CSS */
