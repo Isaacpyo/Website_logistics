@@ -254,7 +254,7 @@ ul {
 }
 
 .bootstrap-select .dropdown-menu>li.selected>a {
-    background: var(--conult-primary);
+    background: #2619cf;
     color: #fff;
 }
 

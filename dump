@@ -531,3 +531,42 @@
         <li><a href="news-details.html">News Details</a></li>
     </ul>
 </li>
+
+<article class="b-post b-post-1 clearfix">
+    <div class="entry-media">
+        <a href="assets/media/content/posts/322x210/2.jpg" class="js-zoom-images"><img src="assets/media/content/posts/322x210/2.jpg" alt="Foto" class="img-responsive" /></a>
+    </div>
+    <div class="entry-main">
+        <div class="entry-header">
+            <h2 class="entry-title ui-title-inner">Cargo Courier Parcel
+            </h2>
+            <div class="ui-decor-1"></div>
+        </div>
+        <div class="entry-content">
+            <p>Ipsum dolor sit amet adipisicing elit sed do eiusmod tempor incididunt labor dolre ipsum.</p>
+        </div>
+    </div>
+</article>
+
+
+<div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="600ms">
+    <!--Services One Single-->
+    <div class="services-one__single">
+        <div class="services-one__img-box">
+            <div class="services-one__img">
+                <img src="assets/images/services/services-page-img-6.jpg" alt="">
+            </div>
+            <div class="services-one__icon">
+                <span class="icon-creative-1"></span>
+            </div>
+        </div>
+        <div class="services-one__content">
+            <h3 class="services-one__title"><a href="financial-advice.html">Financial Advice</a></h3>
+            <p class="services-one__text">Lorem ipsum dolor sit donec amet tristique ante vel sem dictum is rhoncus elit sed.</p>
+            <div class="services-one__bottom">
+                <a href="financial-advice.html" class="services-one__btn">Read More</a>
+                <a href="financial-advice.html" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
+            </div>
+        </div>
+    </div>
+</div>
