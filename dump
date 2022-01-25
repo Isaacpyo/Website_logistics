@@ -1,11 +1,11 @@
 <div off-canvas="mobile-slidebar left overlay">
-    <a href="home.html" class="navbar-brand scroll">
+    <a href="index.html" class="navbar-brand scroll">
         <img src="assets/media/general/Mugaal_logo_white.png" alt="logo" class="normal-logo img-responsive" />
     </a>
     <ul class="nav navbar-nav">
-        <!-- <li class="dropdown"><a data-toggle="dropdown" href="home.html" class="dropdown-toggle">Home<b class="caret"></b></a>
+        <!-- <li class="dropdown"><a data-toggle="dropdown" href="index.html" class="dropdown-toggle">Home<b class="caret"></b></a>
                     <ul role="menu" aria-labelledby="dropdownMenu" class="dropdown-menu">
-                        <li><a href="home.html" tabindex="-1">Home - ver.01</a></li>
+                        <li><a href="index.html" tabindex="-1">Home - ver.01</a></li>
                         <li><a href="home-2.html" tabindex="-1">Home - ver.02</a></li>
                     </ul>
                 </li> -->
@@ -71,7 +71,7 @@
                                 <a href="index.html" class="navbar-brand scroll"><img src="assets/media/general/Mugaal_logo.png" alt="Logo" class="normal-logo logo__img img-responsive" /><img src="assets/media/general/Mugaal_logo.png" alt="logo" class="scroll-logo logo__img img-responsive hidden-xs"
                                     /></a>
                             </div>
-                            <div class="header-nav header-navibox-2"><a href="home.html" class="header-main__btn btn btn-primary btn-effect">Get a Free Quote</a></div>
+                            <div class="header-nav header-navibox-2"><a href="index.html" class="header-main__btn btn btn-primary btn-effect">Get a Free Quote</a></div>
                             <div class="header-navibox-3">
                                 <ul class="main-menu nav navbar-nav yamm">
                                     <li><a href="about.html">About us</a></li>
@@ -384,7 +384,7 @@
                             <h3 class="footer-section__title ui-title-type-1">site links</h3>
                             <div class="ui-decor-1"></div>
                             <ul class="footer-list list list-mark-4">
-                                <li class="footer-list__item"><a href="home.html" class="footer-list__link">Home Page</a></li>
+                                <li class="footer-list__item"><a href="index.html" class="footer-list__link">Home Page</a></li>
                                 <li class="footer-list__item"><a href="pricing.html" class="footer-list__link">Request Quote</a></li>
                                 <li class="footer-list__item"><a href="about.html" class="footer-list__link">About Mugaal</a></li>
                                 <li class="footer-list__item"><a href="services.html" class="footer-list__link">Customer Care</a></li>

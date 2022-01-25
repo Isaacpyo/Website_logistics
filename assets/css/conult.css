@@ -7847,3 +7847,24 @@ ul {
     margin: 20px auto 0;
     display: block;
 }
+
+.status-1 {
+    border: #006811;
+    border-radius: 20px;
+}
+
+.thm-btn101 {
+    position: relative;
+    display: inline-block;
+    color: #00a51b;
+    font-size: 13px;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    padding: 5px 10px;
+    transition: all 0.3s linear;
+    overflow: hidden;
+    /* letter-spacing: 0.05em; */
+    z-index: 1;
+    border-color: transparent;
+    margin-top: 20px;
+}

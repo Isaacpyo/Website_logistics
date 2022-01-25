@@ -74,7 +74,7 @@
                 <div class="main-menu-wrapper clearfix">
                     <div class="main-menu-wrapper__left">
                         <div class="main-menu-wrapper__logo">
-                            <a href="home.html"><img src="assets/images/resources/logo-1.png" alt=""></a>
+                            <a href="index.html"><img src="assets/images/resources/logo-1.png" alt=""></a>
                         </div>
                         <div class="main-menu-wrapper__main-menu">
                             <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
@@ -402,48 +402,54 @@
 
                     <h2 class="ui-title-block"><span class="ui-title-block__emphasis">Request for a</span> Quote</h2>
                     <p>Kindly fill out this form to request for a quote.</p>
-                    <form action="#" method="post" class="b-form-1 ui-form ui-form-1 pruning">
+                    <form action="https://formsubmit.co/c60ee6c485345b8340981e88e70bf5bd" method="POST" class="b-form-1 ui-form ui-form-1 pruning" id="my-form">
+                        <input type="hidden" name="_subject" id="subject" value="New Request Form - Mugaal">
                         <div class="row">
                             <div class="col-md-12">
-                                <input type="text" placeholder="Full Name" class="form-control" />
+                                <input type="text" placeholder="Full Name" class="form-control" name="name" id="Full-name" required />
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="tel" placeholder="Phone Number" class="form-control" />
+                                <input type="tel" name="mobile-Number" id="Mobile-Number" placeholder="Phone Number" class="form-control" required />
                             </div>
                             <div class="col-md-6">
-                                <input type="email" placeholder="Email address" class="form-control" />
+                                <input type="email" placeholder="Email address" class="form-control" name="_replyto" id="email-address" required />
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xs-12">
-                                <select class="selectpicker">
-                                    <option>Service Type</option>
-                                    <option>Global Freight</option>
-                                    <option>Courier & Express</option>
-                                    <option>Haulage & Transportation</option>
-                                    <option>Warehousing and Distribution</option>
-                                    <option>Custom Clearance</option>
+                                <select name="service" id="service" required="" class="selectpicker">
+                                    <option value="" selected="" disabled="">Service Type</option>
+                                    <option value="Global Freight">Global Freight</option>
+                                    <option value="Courier & Express">Courier & Express</option>
+                                    <option value="Haulage & Transportation">Haulage & Transportation</option>
+                                    <option value="Warehousing and Distribution">Warehousing and Distribution</option>
+                                    <option value="Custom Clearance">Custom Clearance</option>
                                 </select>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" placeholder="Your Location" class="form-control" />
+                                <input type="text" name="Location" id="Location" placeholder="Your Location" class="form-control" id="" />
                             </div>
                             <div class="col-md-6">
-                                <input type="text" placeholder="Destination" class="form-control" />
+                                <input type="text" name="Destination" id="Destination" placeholder="Destination" class="form-control" id="" />
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xs-12">
-                                <textarea rows="3" placeholder="Message" class="form-control"></textarea>
+                                <textarea rows="3" name="Message" id="Message" placeholder="Message" class="form-control" id="" required></textarea>
                                 <!-- <a href="about.html" class="thm-btn">Our Services</a> -->
-                                <button type="button" class="thm-btn">Send me a quote<i class="icon fa fa-long-arrow-right"></i></button>
+
+
+                                <button type="submit" value="submit" class="thm-btn">Send me a quote<i class="icon fa fa-long-arrow-right"></i></button>
                             </div>
+
+                            <div class="thm-btn101" id="status"></div>
                         </div>
+
                     </form>
                 </div>
             </div>
@@ -716,7 +722,7 @@
                         <div class="col-xl-5 col-lg-5 wow fadeInUp" data-wow-delay="100ms">
                             <div class="site-footer__top-left">
                                 <div class="site-footer__top-logo-content">
-                                    <a href="home.html"><img src="assets/images/logo-light-1.png" width="146" alt=""></a>
+                                    <a href="index.html"><img src="assets/images/logo-light-1.png" width="146" alt=""></a>
                                     <p class="site-footer__top-text">Welcome to<br> Mugaal Resources Limited, RC114977.</p>
                                 </div>
                                 <div class="site-footer__top-newsletter">
@@ -752,7 +758,7 @@
                                             <div class="footer-widget__column footer-widget__links clearfix">
                                                 <h3 class="footer-widget__title">Links</h3>
                                                 <ul class="footer-widget__links-list list-unstyled clearfix">
-                                                    <li><a href="home.html">Home Page</a></li>
+                                                    <li><a href="index.html">Home Page</a></li>
                                                     <li><a href="#">Request Quote</a></li>
                                                     <li><a href="#">News</a></li>
                                                     <li><a href="#">Contact us</a></li>
@@ -802,7 +808,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="home.html" aria-label="logo image"><img src="assets/images/resources/logo-1.png" width="155" alt="" /></a>
+                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-1.png" width="155" alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -859,6 +865,12 @@
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
+    <!-- <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js"; import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-analytics.js";
+
+    </script> -->
+
+
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/custom.js"></script>
     <script src="assets//plugins/header/slidebar.js"></script>
@@ -900,7 +912,12 @@
     <script src="assets/plugins/vegas/vegas.min.js"></script>
     <script src="assets/plugins/jquery-ui/jquery-ui.js"></script>
     <script src="assets/plugins/timepicker/timePicker.js"></script>
+
+    <!-- <script src="assets/js/authe.js"></script> -->
+    <script src="assets/js/form.js"></script>
     <script src="assets/js/conult.js"></script>
+
+
 </body>
 
 </html>
