@@ -570,3 +570,125 @@
         </div>
     </div>
 </div>
+
+
+<form action="https://formspree.io/f/mnqwjyyv" method="POST" class="b-form-1 ui-form ui-form-1 pruning" id="my-form">
+    <input type="hidden" name="_subject" id="subject" value="New Request Form - Mugaal">
+    <div class="row">
+        <div class="col-md-12">
+            <input type="text" placeholder="Full Name" class="form-control" name="name" id="Full-name" required />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <input type="tel" name="mobile-Number" id="Mobile-Number" placeholder="Phone Number" class="form-control" required />
+        </div>
+        <div class="col-md-6">
+            <input type="email" placeholder="Email address" class="form-control" name="_replyto" id="email-address" required />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <select name="service" id="service" required="" class="selectpicker">
+                <option value="" selected="" disabled="">Service Type</option>
+                <option value="Global Freight">Global Freight</option>
+                <option value="Courier & Express">Courier & Express</option>
+                <option value="Haulage & Transportation">Haulage & Transportation</option>
+                <option value="Warehousing and Distribution">Warehousing and Distribution</option>
+                <option value="Custom Clearance">Custom Clearance</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <input type="text" name="Location" id="Location" placeholder="Your Location" class="form-control" id="" />
+        </div>
+        <div class="col-md-6">
+            <input type="text" name="Destination" id="Destination" placeholder="Destination" class="form-control" id="" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <textarea rows="3" name="Message" id="Message" placeholder="Message" class="form-control" id="" required></textarea>
+            <!-- <a href="about.html" class="thm-btn">Our Services</a> -->
+
+
+            <button type="submit" value="submit" class="thm-btn">Send me a quote<i class="icon fa fa-long-arrow-right"></i></button>
+        </div>
+
+        <div class="thm-btn101" id="status"></div>
+    </div>
+
+</form>
+
+
+
+
+
+
+
+
+<form class="b-form-1 ui-form ui-form-1 pruning" id="contactForm">
+    <input type="hidden" name="_subject" id="subject" value="New Request Form - Mugaal">
+    <div class="row">
+        <div class="col-md-12">
+            <input type="text" placeholder="Full Name" class="form-control" id="name" required />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <input type="tel" id="number" placeholder="Phone Number" class="form-control" required />
+        </div>
+        <div class="col-md-6">
+            <input type="email" placeholder="Email address" class="form-control" id="email" required />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <select id="selects" required="" class="selectpicker">
+                <option value="" selected="" disabled="">Service Type</option>
+                <option value="Global Freight">Global Freight</option>
+                <option value="Courier & Express">Courier & Express</option>
+                <option value="Haulage & Transportation">Haulage & Transportation</option>
+                <option value="Warehousing and Distribution">Warehousing and Distribution</option>
+                <option value="Custom Clearance">Custom Clearance</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <input type="text" id="location" placeholder="Your Location" class="form-control" />
+        </div>
+        <div class="col-md-6">
+            <input type="text" id="destination" placeholder="Destination" class="form-control" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <textarea rows="3" id="message" placeholder="Message" class="form-control" required></textarea>
+            <!-- <a href="about.html" class="thm-btn">Our Services</a> -->
+
+
+            <button type="submit" class="thm-btn">Send me a quote<i class="icon fa fa-long-arrow-right"></i></button>
+        </div>
+
+        <!-- <div class="thm-btn101" id="status"></div> -->
+    </div>
+
+</form>
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js"; import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-analytics.js"; const firebaseConfig = { apiKey: "AIzaSyDvCvQZSipZpdLpGLYbNs3daztlemRTuqE",
+    authDomain: "contact-5d0b6.firebaseapp.com", databaseURL: "https://contact-5d0b6-default-rtdb.firebaseio.com", projectId: "contact-5d0b6", storageBucket: "contact-5d0b6.appspot.com", messagingSenderId: "827224984671", appId: "1:827224984671:web:4ba57bfe687c5585891fea"
+    }; const app = initializeApp(firebaseConfig); const analytics = getAnalytics(app); import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-database.js"; const database = getDatabase(app); var messagesRef = ref(database,
+    "contactFormDB-2"); document.getElementById('contactForm').addEventListener('submit', submitForm); function submitForm(e) { e.preventDefault(); var name = getElementVal('name'); var number = getElementVal('number'); var email = getElementVal('email');
+    var selects = getElementVal('selects'); var location = getElementVal('location'); var destination = getElementVal('destination'); var message = getElementVal('message'); saveMessage(name, number, email, selects, location, destination, message); document.querySelector('.alert').style.display
+    = 'block'; setTimeout(function() { document.querySelector('.alert').style.display = 'none'; }, 4000); document.getElementById('contactForm').reset(); } function getElementVal(id) { return document.getElementById(id).value; } function saveMessage(name,
+    number, email, selects, location, destination, message) { var newMessageRef = push(messagesRef); set(newMessageRef), { name: name, number: number, email: email, selects: selects, location: location, destination: destination, message: message }; }
+    const getElementVal = (id) => { return document.getElementById(id).value; };
+</script>
+
+.alert { position: relative; display: inline-block; background-color: #006811; color: #ffffff; font-size: 13px; font-weight: 700; /* text-transform: uppercase; */ padding: 5px 10px; transition: all 0.3s linear; overflow: hidden; /* letter-spacing: 0.05em;
+*/ z-index: 1; border-color: transparent; margin-top: 20px; }

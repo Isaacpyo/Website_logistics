@@ -402,24 +402,24 @@
 
                     <h2 class="ui-title-block"><span class="ui-title-block__emphasis">Request for a</span> Quote</h2>
                     <p>Kindly fill out this form to request for a quote.</p>
-                    <form action="https://formsubmit.co/c60ee6c485345b8340981e88e70bf5bd" method="POST" class="b-form-1 ui-form ui-form-1 pruning" id="my-form">
-                        <input type="hidden" name="_subject" id="subject" value="New Request Form - Mugaal">
-                        <div class="row">
+                    <form class="b-form-1 ui-form ui-form-1 pruning" id="contactForm">
+                        <!-- <input type="hidden" name="_subject" id="subject" value="New Request Form - Mugaal"> -->
+                        <div class="">
                             <div class="col-md-12">
-                                <input type="text" placeholder="Full Name" class="form-control" name="name" id="Full-name" required />
+                                <input type="text" placeholder="Full Name" class="form-control" id="name" required />
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="">
                             <div class="col-md-6">
-                                <input type="tel" name="mobile-Number" id="Mobile-Number" placeholder="Phone Number" class="form-control" required />
+                                <input type="tel" id="number" placeholder="Phone Number" class="form-control" required />
                             </div>
                             <div class="col-md-6">
-                                <input type="email" placeholder="Email address" class="form-control" name="_replyto" id="email-address" required />
+                                <input type="email" placeholder="Email address" class="form-control" id="email" required />
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="">
                             <div class="col-xs-12">
-                                <select name="service" id="service" required="" class="selectpicker">
+                                <select id="service" required class="selectpicker">
                                     <option value="" selected="" disabled="">Service Type</option>
                                     <option value="Global Freight">Global Freight</option>
                                     <option value="Courier & Express">Courier & Express</option>
@@ -430,27 +430,29 @@
                             </div>
                         </div>
 
-                        <div class="row">
+                        <div class="">
                             <div class="col-md-6">
-                                <input type="text" name="Location" id="Location" placeholder="Your Location" class="form-control" id="" />
+                                <input type="text" id="location" placeholder="Your Location" class="form-control" />
                             </div>
                             <div class="col-md-6">
-                                <input type="text" name="Destination" id="Destination" placeholder="Destination" class="form-control" id="" />
+                                <input type="text" id="destination" placeholder="Destination" class="form-control" />
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="">
                             <div class="col-xs-12">
-                                <textarea rows="3" name="Message" id="Message" placeholder="Message" class="form-control" id="" required></textarea>
+                                <textarea rows="3" id="message" placeholder="Message" class="form-control" required></textarea>
                                 <!-- <a href="about.html" class="thm-btn">Our Services</a> -->
 
 
-                                <button type="submit" value="submit" class="thm-btn">Send me a quote<i class="icon fa fa-long-arrow-right"></i></button>
+                                <button type="submit" class="thm-btn">Send me a quote<i class="icon fa fa-long-arrow-right"></i></button>
                             </div>
 
-                            <div class="thm-btn101" id="status"></div>
+
                         </div>
 
+
                     </form>
+                    <div class="alert"> Thanks for your submission! We will get back as soon as possible.</div>
                 </div>
             </div>
         </section>
@@ -914,7 +916,17 @@
     <script src="assets/plugins/timepicker/timePicker.js"></script>
 
     <!-- <script src="assets/js/authe.js"></script> -->
-    <script src="assets/js/form.js"></script>
+    <!-- <script src="assets/js/form.js"></script> -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js"; import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-analytics.js"; const firebaseConfig = { apiKey: "AIzaSyCrqt18ANcTf9z9lX9Z0XuwkI_oRYRQmfM",
+        authDomain: "mugaal.firebaseapp.com", databaseURL: "https://mugaal-default-rtdb.firebaseio.com", projectId: "mugaal", storageBucket: "mugaal.appspot.com", messagingSenderId: "736784721158", appId: "1:736784721158:web:1b20a8c2b57c8dea51aa87", measurementId:
+        "G-B2EMSHK0LT" }; const app = initializeApp(firebaseConfig); import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-database.js"; const database = getDatabase(app); var messagesRef = ref(database, "contactFormDB");
+        document.getElementById('contactForm').addEventListener('submit', submitForm); function submitForm(e) { e.preventDefault(); var name = getElementVal('name'); var number = getElementVal('number'); var email = getElementVal('email'); var service
+        = getElementVal('service'); var location = getElementVal('location'); var destination = getElementVal('destination'); var message = getElementVal('message'); saveMessage(name, number, email, service, location, destination, message); document.querySelector(".alert").style.display
+        = "block"; setTimeout(() => { document.querySelector(".alert").style.display = "none"; }, 8000); document.getElementById("contactForm").reset(); } function saveMessage(name, number, email, service, location, destination, message) { var newMessageRef
+        = push(messagesRef); set(newMessageRef, { name: name, number: number, email: email, service: service, location: location, destination: destination, message: message, }); } const getElementVal = (id) => { return document.getElementById(id).value;
+        };
+    </script>
     <script src="assets/js/conult.js"></script>
 
 

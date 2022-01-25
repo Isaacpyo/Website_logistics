@@ -1,70 +1,55 @@
-// Initialize Firebase (ADD YOUR OWN DATA)
-function initializeApp() {
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-analytics.js";
+const firebaseConfig = {
+    apiKey: "AIzaSyCrqt18ANcTf9z9lX9Z0XuwkI_oRYRQmfM",
+    authDomain: "mugaal.firebaseapp.com",
+    databaseURL: "https://mugaal-default-rtdb.firebaseio.com",
+    projectId: "mugaal",
+    storageBucket: "mugaal.appspot.com",
+    messagingSenderId: "736784721158",
+    appId: "1:736784721158:web:1b20a8c2b57c8dea51aa87",
+    measurementId: "G-B2EMSHK0LT"
+};
+const app = initializeApp(firebaseConfig);
+import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-database.js";
+const database = getDatabase(app);
+var messagesRef = ref(database, "contactFormDB");
 
-    const firebaseConfig = {
-        apiKey: "AIzaSyCrqt18ANcTf9z9lX9Z0XuwkI_oRYRQmfM",
-        authDomain: "mugaal.firebaseapp.com",
-        projectId: "mugaal",
-        storageBucket: "mugaal.appspot.com",
-        messagingSenderId: "736784721158",
-        appId: "1:736784721158:web:1b20a8c2b57c8dea51aa87",
-        measurementId: "G-B2EMSHK0LT"
-    };
+document.getElementById('contactForm').addEventListener('submit', submitForm);
 
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
 
-    // Reference messages collection
-    var messagesRef = firebase.database().ref('messages');
+function submitForm(e) {
+    e.preventDefault();
+    var name = getElementVal('name');
+    var number = getElementVal('number');
+    var email = getElementVal('email');
+    var service = getElementVal('service');
+    var location = getElementVal('location');
+    var destination = getElementVal('destination');
+    var message = getElementVal('message');
 
-    // Listen for form submit
-    document.getElementById('contactForm').addEventListener('submit', submitForm);
+    saveMessage(name, number, email, service, location, destination, message);
 
-    // Submit form
-    function submitForm(e) {
-        e.preventDefault();
 
-        // Get values
-        var name = getInputVal('name');
-        var number = getInputVal('number');
-        var email = getInputVal('email');
-        var selects = getInputVal('selects');
-        var location = getInputVal('location');
-        var destination = getInputVal('destination');
-        var message = getInputVal('message');
-
-        // Save message
-        saveMessage(name, number, email, selects, location, destination, message);
-
-        // Show alert
-        document.querySelector('.alert').style.display = 'block';
-
-        // Hide alert after 3 seconds
-        setTimeout(function() {
-            document.querySelector('.alert').style.display = 'none';
-        }, 4000);
-
-        // Clear form
-        document.getElementById('contactForm').reset();
-    }
-
-    // Function to get get form values
-    function getInputVal(id) {
-        return document.getElementById(id).value;
-    }
-
-    // Save message to firebase
-    function saveMessage(name, number, email, selects, location, destination, message) {
-        var newMessageRef = messagesRef.push();
-        newMessageRef.set({
-            name: name,
-            number: number,
-            email: email,
-            selects: selects,
-            location: location,
-            destination: destination,
-            message: message
-        });
-    }
+    document.querySelector(".alert").style.display = "block";
+    setTimeout(() => { document.querySelector(".alert").style.display = "none"; }, 5000);
+    document.getElementById("contactForm").reset();
 }
+
+function
+saveMessage(name, number, email, service, location, destination, message) {
+    var newMessageRef = push(messagesRef);
+    set(newMessageRef, {
+        name: name,
+        number: number,
+        email: email,
+        service: service,
+        location: location,
+        destination: destination,
+        message: message,
+    });
+}
+
+const getElementVal = (id) => {
+    return document.getElementById(id).value;
+};
