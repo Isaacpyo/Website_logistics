@@ -5678,6 +5678,18 @@ html [off-canvas*=open] {
     width: 100%;
 }
 
+.block-table101 {
+    margin: 0 -15px;
+}
+
+.block-table102 {
+    margin: 0 -22px;
+}
+
+.block-table103 {
+    margin: 0 22px;
+}
+
 .block-table__cell {
     display: table-cell;
     vertical-align: top;

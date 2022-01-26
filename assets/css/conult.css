@@ -3975,6 +3975,7 @@ ul {
     border-top: 1px solid rgba(var(--conult-white-rgb), 0.1);
     padding-top: 40px;
     margin-top: 38px;
+    margin-left: 38px;
 }
 
 .site-footer__top-right-social {

@@ -170,6 +170,10 @@
         padding-top: 20px;
         padding-bottom: 40px;
     }
+    .b-advantages-2__info {
+        margin-top: 10px;
+        margin-right: 30px;
+    }
     .b-progress-list__item {
         text-align: center;
         width: 100%;
