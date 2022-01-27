@@ -452,7 +452,7 @@
 
 
                     </form> -->
-                    <form class="b-form-1 ui-form ui-form-1 pruning" name="contact" method="POST" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field" action="" id="contactForm">
+                    <form class="b-form-1 ui-form ui-form-1 pruning" name="contact" method="POST" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field" action="/success/">
                         <!-- <input class="d-none" name="bot-field"> -->
                         <!-- <input type="hidden" name="_subject" id="subject" value="New Request Form - Mugaal"> -->
                         <div class="row">
@@ -503,7 +503,6 @@
 
 
                     </form>
-                    <div class="alert"> Thanks for your submission! We will get back as soon as possible.</div>
 
                 </div>
             </div>
@@ -979,21 +978,6 @@
         = push(messagesRef); set(newMessageRef, { name: name, number: number, email: email, service: service, location: location, destination: destination, message: message, }); } const getElementVal = (id) => { return document.getElementById(id).value;
         };
     </script> -->
-    <script src="">
-        document.getElementById('contactForm').addEventListener('submit', submitForm);
-
-
-        function submitForm(e) {
-
-
-
-            document.querySelector(".alert").style.display = "block";
-            setTimeout(() => {
-                document.querySelector(".alert").style.display = "none";
-            }, 5000);
-            document.getElementById("contactForm").reset();
-        }
-    </script>
     <script src="assets/js/conult.js"></script>
 
 
