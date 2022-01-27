@@ -158,6 +158,7 @@ ul {
     font-size: 16px;
     font-weight: 500;
     border-radius: 55px;
+    margin-top: 33px;
     /* text-transform: uppercase; */
     padding: 10px 30px 10px;
     transition: all 0.3s linear;
@@ -7927,4 +7928,83 @@ form label .asterisk {
     color: #89fcf3;
     font-size: 0.5em;
     vertical-align: super;
+}
+
+
+/* cookies */
+
+.wrappers {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    left: 30px;
+    max-width: 100%;
+    font-size: 13px;
+    background: rgb(245, 245, 245);
+    padding: 25px 25px 30px 25px;
+    border-radius: 15px;
+    box-shadow: 1px 7px 14px -5px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    z-index: 300;
+}
+
+.wrappers.hide {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.8);
+    transition: all 0.3s ease;
+}
+
+::selection {
+    color: #fff;
+    background: #FCBA7F;
+}
+
+.wrappers img {
+    max-width: 90px;
+}
+
+.content header {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.content p {
+    color: #313131;
+    margin: 5px 0 5px 0;
+}
+
+.content .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: #100668;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons button:hover {
+    transform: scale(0.97);
+}
+
+.buttons .item {
+    margin: 0 10px;
+}
+
+.buttons a {
+    color: #FCBA7F;
 }

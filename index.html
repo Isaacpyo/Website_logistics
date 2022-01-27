@@ -120,6 +120,22 @@
             <div class="sticky-header__content"></div>
         </div>
         <!-- /.stricky-header -->
+        <!-- cookies -->
+        <div class="wrappers">
+
+            <div class="content">
+
+                <p>We use cookies to understand how you use our site and to improve your experience, including personalizing content and to store your content preferences. By continuing to use our sites, you accept our use of cookies and revised Privacy
+                    Policy.
+                </p>
+                <div class="buttons">
+                    <button class="item">I accept</button>
+                    <!-- <a href="#" class="item">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- cookies -->
 
         <!--Main Slider Start-->
         <section class="main-slider">
@@ -874,6 +890,8 @@
             </div>
         </footer>
         <!--Site Footer End-->
+
+
     </div>
 
 
@@ -938,6 +956,8 @@
         <!-- /.search-popup__content -->
     </div>
     <!-- search -->
+
+
 
     <!-- </div> -->
 
@@ -1007,6 +1027,23 @@
             ftypes[1] = 'text';
         }(jQuery));
         var $mcj = jQuery.noConflict(true);
+    </script>
+    <script>
+        const cookieBox = document.querySelector(".wrappers"),
+            acceptBtn = cookieBox.querySelector("button");
+
+        acceptBtn.onclick = () => {
+
+            document.cookie = "CookieBy=CodingNepal; max-age=" + 60 * 60 * 24 * 30;
+            if (document.cookie) {
+                cookieBox.classList.add("hide");
+            } else {
+                alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
+            }
+        }
+        let checkCookie = document.cookie.indexOf("CookieBy=CodingNepal");
+
+        checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
     </script>
     <script src="assets/js/conult.js"></script>
 
