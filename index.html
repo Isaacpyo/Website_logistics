@@ -452,19 +452,20 @@
 
 
                     </form> -->
-                    <form name="contact" method="POST" data-netlify="true">
+                    <form class="b-form-1 ui-form ui-form-1 pruning" name="contact" method="POST" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">
+                        <!-- <input class="d-none" name="bot-field"> -->
                         <!-- <input type="hidden" name="_subject" id="subject" value="New Request Form - Mugaal"> -->
                         <div class="row">
                             <div class="col-md-12">
-                                <input type="text" name="name" placeholder="Full Name" class="form-control" />
+                                <input type="text" name="name" placeholder="Full Name" class="form-control" required />
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="tel" name="phone" placeholder="Phone Number" class="form-control" />
+                                <input type="tel" name="phone" placeholder="Phone Number" class="form-control" required/>
                             </div>
                             <div class="col-md-6">
-                                <input type="email" name="email" placeholder="Email address" class="form-control" />
+                                <input type="email" name="email" placeholder="Email address" class="form-control" required/>
                             </div>
                         </div>
                         <div class="row">
@@ -482,15 +483,15 @@
 
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" name="location" placeholder="Your Location" class="form-control" />
+                                <input type="text" name="location" placeholder="Your Location" class="form-control" required />
                             </div>
                             <div class="col-md-6">
-                                <input type="text" name="destination" placeholder="Destination" class="form-control" />
+                                <input type="text" name="destination" placeholder="Destination" class="form-control" required />
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xs-12">
-                                <textarea rows="3" name="message" placeholder="Message" class="form-control"></textarea>
+                                <textarea rows="3" name="message" placeholder="Message" class="form-control" required></textarea>
                                 <!-- <a href="about.html" class="thm-btn">Our Services</a> -->
 
 
@@ -503,7 +504,7 @@
 
                     </form>
                     <div class="alert"> Thanks for your submission! We will get back as soon as possible.</div>
-                    <div class="alert"> Thanks for your submission! We will get back as soon as possible.</div>
+
                 </div>
             </div>
         </section>
@@ -968,7 +969,7 @@
 
     <!-- <script src="assets/js/authe.js"></script> -->
     <!-- <script src="assets/js/form.js"></script> -->
-    <script type="module">
+    <!-- <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js"; import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-analytics.js"; const firebaseConfig = { apiKey: "AIzaSyCrqt18ANcTf9z9lX9Z0XuwkI_oRYRQmfM",
         authDomain: "mugaal.firebaseapp.com", databaseURL: "https://mugaal-default-rtdb.firebaseio.com", projectId: "mugaal", storageBucket: "mugaal.appspot.com", messagingSenderId: "736784721158", appId: "1:736784721158:web:1b20a8c2b57c8dea51aa87", measurementId:
         "G-B2EMSHK0LT" }; const app = initializeApp(firebaseConfig); import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-database.js"; const database = getDatabase(app); var messagesRef = ref(database, "contactFormDB");
@@ -977,7 +978,7 @@
         = "block"; setTimeout(() => { document.querySelector(".alert").style.display = "none"; }, 8000); document.getElementById("contactForm").reset(); } function saveMessage(name, number, email, service, location, destination, message) { var newMessageRef
         = push(messagesRef); set(newMessageRef, { name: name, number: number, email: email, service: service, location: location, destination: destination, message: message, }); } const getElementVal = (id) => { return document.getElementById(id).value;
         };
-    </script>
+    </script> -->
     <script src="assets/js/conult.js"></script>
 
 
