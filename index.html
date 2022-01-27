@@ -452,7 +452,7 @@
 
 
                     </form> -->
-                    <form class="b-form-1 ui-form ui-form-1 pruning" name="contact" method="POST" data-netlify="true" onSubmit="submit" data-netlify-recaptcha="true" action="/success/">
+                    <form class="b-form-1 ui-form ui-form-1 pruning" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
                         <!-- <input class="d-none" name="bot-field"> -->
                         <!-- <input type="hidden" name="_subject" id="subject" value="New Request Form - Mugaal"> -->
                         <div class="row">
@@ -489,11 +489,12 @@
                                 <input type="text" name="destination" placeholder="Destination" class="form-control" required />
                             </div>
                         </div>
+                        <div data-netlify-recaptcha="true"></div>
                         <div class="row">
                             <div class="col-xs-12">
                                 <textarea rows="3" name="message" placeholder="Message" class="form-control" required></textarea>
                                 <!-- <a href="about.html" class="thm-btn">Our Services</a> -->
-                                <div data-netlify-recaptcha="true"></div>
+
 
 
                                 <button type="submit" class="thm-btn">Send me a quote<i class="icon fa fa-long-arrow-right"></i></button>
