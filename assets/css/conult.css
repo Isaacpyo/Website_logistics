@@ -7866,3 +7866,65 @@ ul {
     border: #006811;
     border-radius: 20px;
 }
+
+
+/* Mailchimp CSS */
+
+form .mc-field-group {
+    margin-bottom: 35px;
+}
+
+form .indicates-required {
+    color: #CCCDCF;
+    font-size: 0.5em;
+    margin: 35px 0;
+    text-align: center;
+}
+
+form input+.mce_inline_error {
+    display: inline-block;
+    font-size: 0.5em;
+    position: relative;
+}
+
+form input+.mce_inline_error:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #6B0505;
+    position: absolute;
+    top: -10px;
+}
+
+form #mce-success-response {
+    background: green;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 12px;
+    transition: 1s;
+    animation: response 1s forwards;
+}
+
+form #mce-error-response {
+    background: #6B0505;
+    padding: 25px;
+    text-align: center;
+    color: #fff;
+    border-radius: 12px;
+    transition: 1s;
+    animation: response 1s forwards;
+}
+
+form #mce-error-response a {
+    color: #fff;
+}
+
+form label .asterisk {
+    color: #89fcf3;
+    font-size: 0.5em;
+    vertical-align: super;
+}
