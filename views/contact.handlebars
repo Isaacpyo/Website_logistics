@@ -402,57 +402,8 @@
 
                     <h2 class="ui-title-block"><span class="ui-title-block__emphasis">Request for a</span> Quote</h2>
                     <p>Kindly fill out this form to request for a quote.</p>
-                    <!-- <form class="b-form-1 ui-form ui-form-1 pruning" id="contactForm">
-
-                        <div class="row">
-                            <div class="col-md-12">
-                                <input type="text" placeholder="Full Name" class="form-control" id="name" required />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input type="tel" id="number" placeholder="Phone Number" class="form-control" required />
-                            </div>
-                            <div class="col-md-6">
-                                <input type="email" placeholder="Email address" class="form-control" id="email" required />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <select id="service" required class="selectpicker">
-                                    <option value="" selected="" disabled="">Service Type</option>
-                                    <option value="Global Freight">Global Freight</option>
-                                    <option value="Courier & Express">Courier & Express</option>
-                                    <option value="Haulage & Transportation">Haulage & Transportation</option>
-                                    <option value="Warehousing and Distribution">Warehousing and Distribution</option>
-                                    <option value="Custom Clearance">Custom Clearance</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input type="text" id="location" placeholder="Your Location" class="form-control" />
-                            </div>
-                            <div class="col-md-6">
-                                <input type="text" id="destination" placeholder="Destination" class="form-control" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <textarea rows="3" id="message" placeholder="Message" class="form-control" required></textarea>
-
-
-
-                                <button type="submit" class="thm-btn">Send me a quote<i class="icon fa fa-long-arrow-right"></i></button>
-                            </div>
-
-
-                        </div>
-
-
-                    </form> -->
-                    <form name="contact" method="POST" data-netlify="true">
+                    {{msg}}
+                    <form method="POST" action="send" class="b-form-1 ui-form ui-form-1 pruning">
                         <!-- <input type="hidden" name="_subject" id="subject" value="New Request Form - Mugaal"> -->
                         <div class="row">
                             <div class="col-md-12">
@@ -461,10 +412,10 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="tel" name="phone" placeholder="Phone Number" class="form-control" />
+                                <input type="tel" name="phone" placeholder="Phone Number" class="form-control"  />
                             </div>
                             <div class="col-md-6">
-                                <input type="email" name="email" placeholder="Email address" class="form-control" />
+                                <input type="email" name="email" placeholder="Email address" class="form-control"  />
                             </div>
                         </div>
                         <div class="row">
@@ -485,12 +436,12 @@
                                 <input type="text" name="location" placeholder="Your Location" class="form-control" />
                             </div>
                             <div class="col-md-6">
-                                <input type="text" name="destination" placeholder="Destination" class="form-control" />
+                                <input type="text" name="destination"  placeholder="Destination" class="form-control" />
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xs-12">
-                                <textarea rows="3" name="message" placeholder="Message" class="form-control"></textarea>
+                                <textarea rows="3" name="message" placeholder="Message" class="form-control" ></textarea>
                                 <!-- <a href="about.html" class="thm-btn">Our Services</a> -->
 
 
@@ -502,7 +453,6 @@
 
 
                     </form>
-                    <div class="alert"> Thanks for your submission! We will get back as soon as possible.</div>
                     <div class="alert"> Thanks for your submission! We will get back as soon as possible.</div>
                 </div>
             </div>
@@ -966,18 +916,7 @@
     <script src="assets/plugins/jquery-ui/jquery-ui.js"></script>
     <script src="assets/plugins/timepicker/timePicker.js"></script>
 
-    <!-- <script src="assets/js/authe.js"></script> -->
-    <!-- <script src="assets/js/form.js"></script> -->
-    <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js"; import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-analytics.js"; const firebaseConfig = { apiKey: "AIzaSyCrqt18ANcTf9z9lX9Z0XuwkI_oRYRQmfM",
-        authDomain: "mugaal.firebaseapp.com", databaseURL: "https://mugaal-default-rtdb.firebaseio.com", projectId: "mugaal", storageBucket: "mugaal.appspot.com", messagingSenderId: "736784721158", appId: "1:736784721158:web:1b20a8c2b57c8dea51aa87", measurementId:
-        "G-B2EMSHK0LT" }; const app = initializeApp(firebaseConfig); import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-database.js"; const database = getDatabase(app); var messagesRef = ref(database, "contactFormDB");
-        document.getElementById('contactForm').addEventListener('submit', submitForm); function submitForm(e) { e.preventDefault(); var name = getElementVal('name'); var number = getElementVal('number'); var email = getElementVal('email'); var service
-        = getElementVal('service'); var location = getElementVal('location'); var destination = getElementVal('destination'); var message = getElementVal('message'); saveMessage(name, number, email, service, location, destination, message); document.querySelector(".alert").style.display
-        = "block"; setTimeout(() => { document.querySelector(".alert").style.display = "none"; }, 8000); document.getElementById("contactForm").reset(); } function saveMessage(name, number, email, service, location, destination, message) { var newMessageRef
-        = push(messagesRef); set(newMessageRef, { name: name, number: number, email: email, service: service, location: location, destination: destination, message: message, }); } const getElementVal = (id) => { return document.getElementById(id).value;
-        };
-    </script>
+    
     <script src="assets/js/conult.js"></script>
 
 
