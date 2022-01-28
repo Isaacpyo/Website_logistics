@@ -51,7 +51,7 @@
                     <div class="header-topbarbox-2">
                         <div class="header-contact">
                             <div class="header-contact__item"><i class="icon fa fa-phone"></i> 0803 110 3211</div>
-                            <div class="header-contact__item"><i class="icon fa fa-envelope-o"></i> inquiry@mugaal.com</div>
+                            <div class="header-contact__item"><i class="icon fa fa-envelope-o"></i> info@mugaal.com</div>
 
                         </div>
                     </div>
@@ -362,7 +362,7 @@
                             <div class="footer__contact"><i class="icon fa fa-map-marker"></i> F/F Plaza by Ascon filling station, Lagos State
                             </div>
                             <div class="footer__contact"><i class="icon fa fa-phone"></i> 08031103211, 08167137044</div>
-                            <div class="footer__contact"><i class="icon fa fa-envelope-o"></i> inquiry@mugaal.com</div>
+                            <div class="footer__contact"><i class="icon fa fa-envelope-o"></i> info@mugaal.com</div>
                         </section>
                     </div>
                     <div class="col-md-3">
@@ -753,7 +753,7 @@
                                     <span class="icon-email"></span>
                                 </div>
                                 <div class="text">
-                                    <p><a href="mailto:inquiry@mugaal.com">inquiry@mugaal.com</a></p>
+                                    <p><a href="mailto:info@mugaal.com">info@mugaal.com</a></p>
                                 </div>
                             </li>
                         </ul>
@@ -1404,7 +1404,7 @@
                             </div>
                             <div class="b-contacts-1__item block-table__cell">
                                 <div class="b-contacts-1__title">ask for a free quote</div>
-                                <div class="b-contacts-1__info b-contacts-1__info_sm"> inquiry@mugaal.com</div>
+                                <div class="b-contacts-1__info b-contacts-1__info_sm"> info@mugaal.com</div>
                             </div>
                         </div>
 
@@ -1469,7 +1469,7 @@
                                         <div class="col-xl-6 col-lg-6 col-md-4 wow fadeInUp" data-wow-delay="300ms">
                                             <div class="footer-widget__column footer-widget__contact clearfix">
                                                 <h3 class="footer-widget__title">Contact</h3>
-                                                <a href="mailto:inquiry@mugaal.com">inquiry@mugaal.com</a>
+                                                <a href="mailto:info@mugaal.com">info@mugaal.com</a>
                                                 <p class="footer-widget__contact-text">F&F Plaza, Adebisi Awoshoga Street,<br> Lagos State, Nigeria</p>
                                             </div>
                                         </div>
@@ -1518,7 +1518,7 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:inquiry@mugaal.com">inquiry@mugaal.com</a>
+                    <a href="mailto:info@mugaal.com">info@mugaal.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>

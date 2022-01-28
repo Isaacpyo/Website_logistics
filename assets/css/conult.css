@@ -1,24 +1,3 @@
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Utility
-# Cards
-# Common
-# Form
-# Navigations
-# Animations
-# Mobile Nav
-# Search Popup
-# Page Header
-# Google Map
-# Client Carousel
---------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------
-# Common
---------------------------------------------------------------*/
-
 :root {
     --conult-font: "Open Sans", sans-serif;
     /* --conult-reey-font: "reeyregular"; */
@@ -1677,19 +1656,19 @@ ul {
 
 .main-slider .swiper-slide {
     position: relative;
-    background-color: #002442;
 }
 
 .main-slider .container {
     position: relative;
     padding-top: 250px;
-    padding-bottom: 190px;
+    padding-bottom: 310px;
     z-index: 30;
 }
 
 .main-slider .image-layer {
     position: absolute;
     top: 0;
+    max-height: 800px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -1709,7 +1688,7 @@ ul {
 }
 
 .main-slider .swiper-slide-active .image-layer {
-    opacity: 0.4;
+    opacity: 0;
 }
 
 .main-slider-shape-1 {
@@ -7936,13 +7915,13 @@ form label .asterisk {
 .wrappers {
     position: fixed;
     bottom: 30px;
-    right: 30px;
-    left: 30px;
+    right: 20px;
+    left: 20px;
     max-width: 100%;
     font-size: 13px;
     background: rgb(245, 245, 245);
-    padding: 25px 25px 30px 25px;
-    border-radius: 15px;
+    padding: 10px 12px 15px 12px;
+    border-radius: 5px;
     box-shadow: 1px 7px 14px -5px rgba(0, 0, 0, 0.25);
     text-align: center;
     z-index: 300;
@@ -8007,4 +7986,9 @@ form label .asterisk {
 
 .buttons a {
     color: #FCBA7F;
+}
+
+.launch {
+    background-color: #001557;
+    max-height: 100%;
 }
