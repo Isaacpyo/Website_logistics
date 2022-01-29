@@ -51,7 +51,7 @@
                     <div class="header-topbarbox-2">
                         <div class="header-contact">
                             <div class="header-contact__item"><i class="icon fa fa-phone"></i> 0803 110 3211</div>
-                            <div class="header-contact__item"><i class="icon fa fa-envelope-o"></i> inquiry@mugaal.com</div>
+                            <div class="header-contact__item"><i class="icon fa fa-envelope-o"></i> info@mugaal.com</div>
 
                         </div>
                     </div>
@@ -127,10 +127,10 @@
                             <ul>
                                 <li><a href="services.html">Services</a></li>
                                 <li><a href="consumer-product.html">Consumer Product</a></li>
-                                <li><a href="audit-marketing.html">Audit Marketing</a></li>
-                                <li><a href="banking-advising.html">Banking Advising</a></li>
-                                <li><a href="business-growth.html">Business Growth</a></li>
-                                <li><a href="financial-advice.html">Financial Advice</a></li>
+                                <li><a href="courier-express.html">Audit Marketing</a></li>
+                                <li><a href="haulage-transportation.html">Banking Advising</a></li>
+                                <li><a href="warehousing-distribution.html">Business Growth</a></li>
+                                <li><a href="custom-clearance.html">Financial Advice</a></li>
                                 <li><a href="marketing-rules.html">Marketing Rules</a></li>
                             </ul>
                         </li>
@@ -362,7 +362,7 @@
                             <div class="footer__contact"><i class="icon fa fa-map-marker"></i> F/F Plaza by Ascon filling station, Lagos State
                             </div>
                             <div class="footer__contact"><i class="icon fa fa-phone"></i> 08031103211, 08167137044</div>
-                            <div class="footer__contact"><i class="icon fa fa-envelope-o"></i> inquiry@mugaal.com</div>
+                            <div class="footer__contact"><i class="icon fa fa-envelope-o"></i> info@mugaal.com</div>
                         </section>
                     </div>
                     <div class="col-md-3">
@@ -561,11 +561,11 @@
             </div>
         </div>
         <div class="services-one__content">
-            <h3 class="services-one__title"><a href="financial-advice.html">Financial Advice</a></h3>
+            <h3 class="services-one__title"><a href="custom-clearance.html">Financial Advice</a></h3>
             <p class="services-one__text">Lorem ipsum dolor sit donec amet tristique ante vel sem dictum is rhoncus elit sed.</p>
             <div class="services-one__bottom">
-                <a href="financial-advice.html" class="services-one__btn">Read More</a>
-                <a href="financial-advice.html" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
+                <a href="custom-clearance.html" class="services-one__btn">Read More</a>
+                <a href="custom-clearance.html" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
             </div>
         </div>
     </div>
@@ -724,7 +724,7 @@
     <link rel="stylesheet" href="assets/css/conult.css" />
     <link rel="stylesheet" href="assets/css/conult-responsive.css" />
 
-    <link rel="stylesheet" href="assets/css/master.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
 </head>
 
@@ -735,6 +735,7 @@
 
 
     <div class="page-wrapper">
+        <!--1/ header -->
         <header class="main-header clearfix">
             <div class="main-header__top clearfix">
                 <div class="main-header__top-inner clearfix">
@@ -753,7 +754,7 @@
                                     <span class="icon-email"></span>
                                 </div>
                                 <div class="text">
-                                    <p><a href="mailto:inquiry@mugaal.com">inquiry@mugaal.com</a></p>
+                                    <p><a href="mailto:info@mugaal.com">info@mugaal.com</a></p>
                                 </div>
                             </li>
                         </ul>
@@ -782,7 +783,7 @@
                                 <li class="dropdown">
                                     <a href="#">Services</a>
                                     <ul>
-                                        <li><a href="services-global-freight.html">Global Freight</a></li>
+                                        <li><a href="global-freight.html">Global Freight</a></li>
                                         <li><a href="#">Courier & Express</a></li>
                                         <li><a href="#">Haulage & Transportation</a></li>
                                         <li><a href="#">Warehousing & Distribution</a></li>
@@ -813,13 +814,17 @@
                 </div>
             </nav>
         </header>
+        <!-- header -->
 
+
+        <!-- 2/ /.stricky-header -->
         <div class="stricky-header stricked-menu main-menu">
             <div class="sticky-header__content"></div>
         </div>
         <!-- /.stricky-header -->
 
-        <!--Main Slider Start-->
+
+        <!-- 3/ Main Slider Start-->
         <section class="main-slider">
             <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
                         "effect": "fade",
@@ -839,7 +844,7 @@
                     <div class="swiper-slide">
                         <div class="image-layer" style="background-image: url(assets/images/backgrounds/main-slider-1-1.jpg);">
                         </div>
-                        <!-- /.image-layer -->
+
 
                         <div class="main-slider-shape-2"><img src="assets/images/shapes/main-slider-shape-2.png" alt="">
                         </div>
@@ -853,11 +858,7 @@
                                         <h2>Highest Quality</h2>
 
                                         <h2>logistic services</h2>
-                                        <a href="services.html" class="thm-btn">Our Services</a>
-                                        <!-- <a href="about.html" class="thm-btn">Our Company</a> -->
-                                        <!-- <a href="services.html" class="main-slider__btn btn btn-primary btn-sm btn-effect">Our Services</a>
-                                        <a href="about.html" class="main-slider__btn main-slider__btn_white btn btn-sm btn-effect">About Company</a> -->
-                                    </div>
+                                        <a href="services.html" class="thm-btn">Our Services</a></div>
                                 </div>
                             </div>
                         </div>
@@ -865,7 +866,7 @@
                     <div class="swiper-slide">
                         <div class="image-layer" style="background-image: url(assets/images/backgrounds/main-slider-1-2.jpg);">
                         </div>
-                        <!-- /.image-layer -->
+
 
                         <div class="main-slider-shape-2"><img src="assets/images/shapes/main-slider-shape-2.png" alt="">
                         </div>
@@ -886,7 +887,7 @@
                     </div>
 
                 </div>
-                <!-- If we need navigation buttons -->
+
                 <div class="main-slider__nav">
                     <div class="swiper-button-prev" id="main-slider__swiper-button-next">
                         <i class="icon-right-arrow icon-left-arrow"></i>
@@ -897,10 +898,10 @@
                 </div>
             </div>
         </section>
-        <!--Main Slider End-->
+        <!--Main Slider end-->
 
 
-
+        <!--4/ after Slider Start-->
         <div class="container wow">
             <div class="row">
                 <div class="col-xs-12">
@@ -909,27 +910,27 @@
                             <h3 class="b-advantages-1__title ui-title-inner">Excellent delivery time</h3>
                             <div class="b-advantages-1__info">We ensures customers' shipments are delivered within schedules which allows them to plan ahead.</div><a href="services-1.html" class="b-advantages-1__btn btn-link btn-link-sm">read more<i class="icon fa fa-long-arrow-right"></i></a>
                         </section>
-                        <!-- end b-advantages-->
-
                         <section class="b-advantages-1"><i class="b-advantages-1__icon flaticon-truck-1"></i>
                             <h3 class="b-advantages-1__title ui-title-inner">Delivery Notification</h3>
                             <div class="b-advantages-1__info">
                                 Mugaal notifies the receiver when shipments are available for pick up. </div><a href="services-1.html" class="b-advantages-1__btn btn-link btn-link-sm">read more<i class="icon fa fa-long-arrow-right"></i></a>
                         </section>
-                        <!-- end b-advantages-->
+
 
                         <section class="b-advantages-1"><i class="b-advantages-1__icon flaticon-location"></i>
                             <h3 class="b-advantages-1__title ui-title-inner">No Hidden Fees</h3>
                             <div class="b-advantages-1__info">Totally transparent pricing. Know what you're paying and stay on top of your shipping costs.</div><a href="services-1.html" class="b-advantages-1__btn btn-link btn-link-sm">read more<i class="icon fa fa-long-arrow-right"></i></a>
                         </section>
-                        <!-- end b-advantages-->
+
 
                     </div>
                 </div>
             </div>
         </div>
-        <!-- end container-->
+        <!--after Slider end-->
 
+
+        <!-- 5/ Service-->
         <section class="section-default wow">
             <div class="container">
                 <div class="row">
@@ -961,10 +962,6 @@
                                         </div>
                                     </div>
                                 </article>
-                                <!-- end post-->
-
-
-                                <!-- end post-->
 
                                 <article class="b-post b-post-1 clearfix">
                                     <div class="entry-media">
@@ -981,7 +978,7 @@
                                         </div>
                                     </div>
                                 </article>
-                                <!-- end post-->
+
 
                                 <article class="b-post b-post-1 clearfix">
                                     <div class="entry-media">
@@ -1033,17 +1030,15 @@
                 </div>
             </div>
         </section>
-        <!-- end section-->
+        <!-- service-->
 
 
 
-        <!--Counter One -->
+        <!-- 6/ Counter One -->
         <section class="counter-one">
             <div class="counter-one-wrap">
                 <div class="counter-one-shape" style="background-image: url(assets/images/shapes/counter-one-shape.png)"></div>
                 <div class="counter-one-img"><img src="assets/images/resources/counter-one-img.jpg" alt=""></div>
-                <!-- <div class="counter-one-shape-2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms"><img src="assets/images/shapes/counter-one-shape-2.png" alt=""></div> -->
-                <!-- <div class="counter-one-shape-3"><img src="assets/images/shapes/counter-one-shape-3.png" alt=""></div> -->
                 <div class="container">
                     <div class="counter-one__top">
                         <div class="row">
@@ -1092,7 +1087,7 @@
         </section>
         <!--Counter One End-->
 
-        <!-- Quote form-->
+        <!-- 7/  Quote form-->
         <section class="section-full-width section-full-width_mod-a block-table wow">
             <div class="block-table__cell block-table__cell_2-col section-full-width__bg"></div>
             <div class="block-table__cell block-table__cell_2-col">
@@ -1100,9 +1095,8 @@
 
                     <h2 class="ui-title-block"><span class="ui-title-block__emphasis">Request for a</span> Quote</h2>
                     <p>Kindly fill out this form to request for a quote.</p>
-                    {{msg}}
+
                     <form method="POST" action="send" class="b-form-1 ui-form ui-form-1 pruning">
-                        <!-- <input type="hidden" name="_subject" id="subject" value="New Request Form - Mugaal"> -->
                         <div class="row">
                             <div class="col-md-12">
                                 <input type="text" name="name" placeholder="Full Name" class="form-control" />
@@ -1140,7 +1134,7 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <textarea rows="3" name="message" placeholder="Message" class="form-control"></textarea>
-                                <!-- <a href="about.html" class="thm-btn">Our Services</a> -->
+
 
 
                                 <button type="submit" class="thm-btn">Send me a quote<i class="icon fa fa-long-arrow-right"></i></button>
@@ -1157,7 +1151,7 @@
         </section>
         <!-- Quote form-->
 
-        <!-- Why Choose us -->
+        <!-- 8/ Why Choose us -->
         <section class="section-advantages-2 section-default_padd-top wow">
             <div class="container">
                 <div class="row">
@@ -1178,7 +1172,7 @@
                                 <div class="b-advantages-2__decor ui-decor-1"></div>
                                 <div class="b-advantages-2__info">We seek to provide a service in line with the customers' expectations and satisfaction.</div>
                             </section>
-                            <!-- end b-advantages-->
+
 
                             <section class="b-advantages-2 b-advantages-2_right-col"><i class="b-advantages-2__icon flaticon-chronometer"></i>
 
@@ -1186,14 +1180,7 @@
                                 <div class="b-advantages-2__decor ui-decor-1"></div>
                                 <div class="b-advantages-2__info">We provide reliable, fast, efficient and cost effective solutions that meet delivery deadlines. </div>
                             </section>
-                            <!-- end b-advantages-->
 
-                            <!-- <section class="b-advantages-2 b-advantages-2_right-col"><i class="b-advantages-2__icon flaticon-24-hours-1"></i>
-                                <h3 class="b-advantages-2__title ui-title-inner">24/7 customer support</h3>
-                                <div class="b-advantages-2__decor ui-decor-1"></div>
-                                <div class="b-advantages-2__info">Sliquip ex eadas commodo consequat dsuis aute nostrud exercitation ullamco laboris ut nisi</div>
-                            </section> -->
-                            <!-- end b-advantages-->
 
                         </div>
 
@@ -1256,7 +1243,7 @@
 
 
 
-        <!-- FAQ-->
+        <!-- 9/ FAQ-->
         <div data-stellar-background-ratio="0.4" data-stellar-vertical-offset="0" class="section-area section-bg section-bg_type-a section-bg_dark parallax wow">
             <div class="section-bg__inner">
                 <div class="container">
@@ -1388,7 +1375,7 @@
         </div>
         <!-- FAQ-->
 
-        <!-- working Hours-->
+        <!--10/  working Hours-->
         <div class="section-contacts-1 bg-primary wow">
             <div class="container">
                 <div class="row">
@@ -1404,7 +1391,7 @@
                             </div>
                             <div class="b-contacts-1__item block-table__cell">
                                 <div class="b-contacts-1__title">ask for a free quote</div>
-                                <div class="b-contacts-1__info b-contacts-1__info_sm"> inquiry@mugaal.com</div>
+                                <div class="b-contacts-1__info b-contacts-1__info_sm"> info@mugaal.com</div>
                             </div>
                         </div>
 
@@ -1415,7 +1402,7 @@
         </div>
         <!-- working Hours-->
 
-        <!--Site Footer Start-->
+        <!-- 11/ Site Footer Start-->
         <footer class="site-footer">
             <div class="container block-table102">
                 <div class="site-footer__top">
@@ -1447,7 +1434,7 @@
                                                 <h3 class="footer-widget__title">Explore</h3>
                                                 <ul class="footer-widget__explore-list list-unstyled clearfix">
                                                     <li><a href="#">About us</a></li>
-                                                    <li><a href="services-global-freight.html">Global Freight</a></li>
+                                                    <li><a href="global-freight.html">Global Freight</a></li>
                                                     <li><a href="#">Courier & Express</a></li>
                                                     <li><a href="#">Haulage & Transportation</a></li>
                                                     <li><a href="#">Warehousing</a></li>
@@ -1469,7 +1456,7 @@
                                         <div class="col-xl-6 col-lg-6 col-md-4 wow fadeInUp" data-wow-delay="300ms">
                                             <div class="footer-widget__column footer-widget__contact clearfix">
                                                 <h3 class="footer-widget__title">Contact</h3>
-                                                <a href="mailto:inquiry@mugaal.com">inquiry@mugaal.com</a>
+                                                <a href="mailto:info@mugaal.com">info@mugaal.com</a>
                                                 <p class="footer-widget__contact-text">F&F Plaza, Adebisi Awoshoga Street,<br> Lagos State, Nigeria</p>
                                             </div>
                                         </div>
@@ -1500,32 +1487,29 @@
     </div>
 
 
-
-
+    <!-- 12/ mobile-nav -->
     <div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-        <!-- /.mobile-nav__overlay -->
         <div class="mobile-nav__content">
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
-
             <div class="logo-box">
                 <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-1.png" width="155" alt="" /></a>
             </div>
-            <!-- /.logo-box -->
+
             <div class="mobile-nav__container"></div>
-            <!-- /.mobile-nav__container -->
+
 
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:inquiry@mugaal.com">inquiry@mugaal.com</a>
+                    <a href="mailto:info@mugaal.com">info@mugaal.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
                     <a href="tel:+234803110-3211">+ 234 (803) 110-3211</a>
                 </li>
             </ul>
-            <!-- /.mobile-nav__contact -->
+
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
                     <a href="#" class="fab fa-twitter"></a>
@@ -1533,18 +1517,15 @@
 
                     <a href="#" class="fab fa-instagram"></a>
                 </div>
-                <!-- /.mobile-nav__social -->
+
             </div>
-            <!-- /.mobile-nav__top -->
-
-
 
         </div>
-        <!-- /.mobile-nav__content -->
+
     </div>
     <!-- /.mobile-nav -->
 
-    <!-- search -->
+    <!-- 13/  search -->
     <div class="search-popup">
         <div class="search-popup__overlay search-toggler"></div>
         <!-- /.search-popup__overlay -->
@@ -1562,14 +1543,8 @@
     </div>
     <!-- search -->
 
-    <!-- </div> -->
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-
-    <!-- <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js"; import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-analytics.js";
-
-    </script> -->
 
 
     <script src="assets/js/jquery.js"></script>
@@ -1621,3 +1596,36 @@
 </body>
 
 </html>
+
+<!-- <script src="assets/js/authe.js"></script> -->
+<!-- <script src="assets/js/form.js"></script> -->
+<!-- <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js"; import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-analytics.js"; const firebaseConfig = { apiKey: "AIzaSyCrqt18ANcTf9z9lX9Z0XuwkI_oRYRQmfM",
+        authDomain: "mugaal.firebaseapp.com", databaseURL: "https://mugaal-default-rtdb.firebaseio.com", projectId: "mugaal", storageBucket: "mugaal.appspot.com", messagingSenderId: "736784721158", appId: "1:736784721158:web:1b20a8c2b57c8dea51aa87", measurementId:
+        "G-B2EMSHK0LT" }; const app = initializeApp(firebaseConfig); import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-database.js"; const database = getDatabase(app); var messagesRef = ref(database, "contactFormDB");
+        document.getElementById('contactForm').addEventListener('submit', submitForm); function submitForm(e) { e.preventDefault(); var name = getElementVal('name'); var number = getElementVal('number'); var email = getElementVal('email'); var service
+        = getElementVal('service'); var location = getElementVal('location'); var destination = getElementVal('destination'); var message = getElementVal('message'); saveMessage(name, number, email, service, location, destination, message); document.querySelector(".alert").style.display
+        = "block"; setTimeout(() => { document.querySelector(".alert").style.display = "none"; }, 8000); document.getElementById("contactForm").reset(); } function saveMessage(name, number, email, service, location, destination, message) { var newMessageRef
+        = push(messagesRef); set(newMessageRef, { name: name, number: number, email: email, service: service, location: location, destination: destination, message: message, }); } const getElementVal = (id) => { return document.getElementById(id).value;
+        };
+    </script> -->
+
+
+
+<!-- 13/  search -->
+<div class="search-popup">
+    <div class="search-popup__overlay search-toggler"></div>
+    <!-- /.search-popup__overlay -->
+    <div class="search-popup__content">
+        <form action="#">
+            <label for="search" class="sr-only">search here</label>
+            <!-- /.sr-only -->
+            <input type="text" id="search" placeholder="Search Here..." />
+            <button type="submit" aria-label="search submit" class="thm-btn">
+                            <i class="icon-magnifying-glass"></i>
+                        </button>
+        </form>
+    </div>
+    <!-- /.search-popup__content -->
+</div>
+<!-- 13/  search end-->

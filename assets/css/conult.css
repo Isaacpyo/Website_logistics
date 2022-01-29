@@ -1,24 +1,3 @@
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Utility
-# Cards
-# Common
-# Form
-# Navigations
-# Animations
-# Mobile Nav
-# Search Popup
-# Page Header
-# Google Map
-# Client Carousel
---------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------
-# Common
---------------------------------------------------------------*/
-
 :root {
     --conult-font: "Open Sans", sans-serif;
     /* --conult-reey-font: "reeyregular"; */
@@ -168,6 +147,26 @@ ul {
     border-color: transparent;
 }
 
+.thm-btn110 {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    outline: none !important;
+    background-color: #2619cf;
+    color: var(--conult-white);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 55px;
+    /* text-transform: uppercase; */
+    padding: 10px 30px 10px;
+    transition: all 0.3s linear;
+    overflow: hidden;
+    /* letter-spacing: 0.05em; */
+    z-index: 1;
+    border-color: transparent;
+}
+
 .thm-btn:hover {
     color: var(--conult-white);
     border-color: transparent;
@@ -189,6 +188,32 @@ ul {
 }
 
 .thm-btn:hover:after {
+    transform: scale(1, 1);
+    transform-origin: right center;
+    border-color: transparent;
+}
+
+.thm-btn110:hover {
+    color: var(--conult-white);
+    border-color: transparent;
+}
+
+.thm-btn110:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: -2px;
+    bottom: 0;
+    background-color: var(--conult-black);
+    transition: transform 500ms ease;
+    transform: scale(0, 1);
+    transform-origin: left center;
+    z-index: -1;
+    border-color: transparent;
+}
+
+.thm-btn110:hover:after {
     transform: scale(1, 1);
     transform-origin: right center;
     border-color: transparent;
@@ -1405,8 +1430,8 @@ ul {
     position: relative;
     height: 100%;
     overflow-y: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -1450,9 +1475,9 @@ ul {
 .mobile-nav__content .main-menu__list li a {
     display: flex;
     justify-content: space-between;
-    line-height: 30px;
+    line-height: 35px;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 16px;
     font-family: var(--conult-font);
     font-weight: 500;
     height: 46px;
@@ -1533,8 +1558,8 @@ ul {
 
 .mobile-nav__contact {
     margin-bottom: 0;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .mobile-nav__contact li {
@@ -3062,7 +3087,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 111px 0 119px;
+    padding: 40px 0 42px;
 }
 
 .cta-one__title {
@@ -3262,7 +3287,7 @@ ul {
     position: relative;
     display: block;
     margin: 0 auto;
-    max-width: 1410px;
+    /* max-width: 1410px; */
     width: 100%;
     background-color: var(--conult-black);
     overflow: hidden;
@@ -7839,7 +7864,7 @@ ul {
 .contact-page {
     position: relative;
     display: block;
-    padding: 120px 0 120px;
+    padding: 5px 0 50px;
 }
 
 .contact-page .container {
@@ -7936,13 +7961,13 @@ form label .asterisk {
 .wrappers {
     position: fixed;
     bottom: 30px;
-    right: 30px;
-    left: 30px;
+    right: 20px;
+    left: 20px;
     max-width: 100%;
     font-size: 13px;
     background: rgb(245, 245, 245);
-    padding: 25px 25px 30px 25px;
-    border-radius: 15px;
+    padding: 10px 12px 15px 12px;
+    border-radius: 5px;
     box-shadow: 1px 7px 14px -5px rgba(0, 0, 0, 0.25);
     text-align: center;
     z-index: 300;
@@ -8007,4 +8032,9 @@ form label .asterisk {
 
 .buttons a {
     color: #FCBA7F;
+}
+
+.launch {
+    background-color: #001557;
+    max-height: 100%;
 }

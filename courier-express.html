@@ -11,32 +11,27 @@
     <meta content="telephone=no" name="format-detection" />
     <meta name="HandheldFriendly" content="true" />
 
-    <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
     <meta name="description" content="Mugaal Resources Limited Ltd" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- template styles -->
     <link rel="stylesheet" href="assets/css/conult.css" />
     <link rel="stylesheet" href="assets/css/conult-responsive.css" />
-
-    <link rel="stylesheet" href="assets/css/master.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
 </head>
 
 <body>
-    <!-- Loader-->
-    <div id="page-preloader"><span class="spinner"></span></div>
-    <!-- Loader end-->
-
+    <div class="preloader">
+        <img class="preloader__image" width="60" src="assets/images/loader.png" alt="" />
+    </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
+        <!--1/ header -->
         <header class="main-header clearfix">
             <div class="main-header__top clearfix">
                 <div class="main-header__top-inner clearfix">
@@ -55,7 +50,7 @@
                                     <span class="icon-email"></span>
                                 </div>
                                 <div class="text">
-                                    <p><a href="mailto:inquiry@mugaal.com">inquiry@mugaal.com</a></p>
+                                    <p><a href="mailto:info@mugaal.com">info@mugaal.com</a></p>
                                 </div>
                             </li>
                         </ul>
@@ -84,7 +79,7 @@
                                 <li class="dropdown">
                                     <a href="#">Services</a>
                                     <ul>
-                                        <li><a href="services-global-freight.html">Global Freight</a></li>
+                                        <li><a href="global-freight.html">Global Freight</a></li>
                                         <li><a href="#">Courier & Express</a></li>
                                         <li><a href="#">Haulage & Transportation</a></li>
                                         <li><a href="#">Warehousing & Distribution</a></li>
@@ -98,10 +93,7 @@
                         </div>
                     </div>
                     <div class="main-menu-wrapper__right">
-                        <div class="main-menu-wrapper__search-cat">
-                            <a href="#" class="main-menu-wrapper__search search-toggler icon-magnifying-glass"></a>
 
-                        </div>
                         <div class="main-menu-wrapper__call">
                             <div class="main-menu-wrapper__call-icon">
                                 <span class="icon-phone"></span>
@@ -115,11 +107,33 @@
                 </div>
             </nav>
         </header>
+        <!--1/ header -->
 
+
+        <!-- 2/ /.stricky-header -->
         <div class="stricky-header stricked-menu main-menu">
             <div class="sticky-header__content"></div>
         </div>
         <!-- /.stricky-header -->
+
+
+        <!-- cookies -->
+        <div class="wrappers">
+
+            <div class="content">
+
+                <p>We use cookies to understand how you use our site and to improve your experience, including personalizing content and to store your content preferences.
+                </p>
+                <p>By continuing to use our sites, you accept our use of cookies and revised Privacy Policy.
+                </p>
+                <div class="buttons">
+                    <button class="item">I accept</button>
+                    <!-- <a href="#" class="item">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- cookies -->
 
         <!--Page Header Start-->
         <section class="page-header">
@@ -127,11 +141,11 @@
             </div>
             <div class="container">
                 <div class="page-header__inner">
-                    <h2>Global Freight</h2>
+                    <h2>Audit Marketing</h2>
                     <ul class="thm-breadcrumb list-unstyled">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html">Service</a></li>
-                        <li class="active">Global Freight</li>
+                        <li><a href="services.html">Services</a></li>
+                        <li class="active">Service Details</li>
                     </ul>
                 </div>
             </div>
@@ -146,15 +160,15 @@
                         <div class="service-details__sidebar">
                             <div class="service-details__sidebar-service">
                                 <ul class="service-details__sidebar-service-list list-unstyled">
-                                    <li class="current"><a href="consumer-product.html">Global Freight <span class="icon-right-arrow"></span></a></li>
-                                    <li><a href="#">Courier & Express <span class="icon-right-arrow"></span></a></li>
-                                    <li><a href="#">Haulage & Transportation <span class="icon-right-arrow"></span></a></li>
-                                    <li><a href="#">Warehousing and Distribution<span class="icon-right-arrow"></span></a></li>
-                                    <li><a href="#">Custom Clearance<span class="icon-right-arrow"></span></a></li>
-
+                                    <li><a href="consumer-product.html">Consumer Product <span class="icon-right-arrow"></span></a></li>
+                                    <li class="current"><a href="courier-express.html">Audit Marketing <span class="icon-right-arrow"></span></a></li>
+                                    <li><a href="haulage-transportation.html">Banking Advising <span class="icon-right-arrow"></span></a></li>
+                                    <li><a href="warehousing-distribution.html">Business Growth <span class="icon-right-arrow"></span></a></li>
+                                    <li><a href="custom-clearance.html">Financial Advice <span class="icon-right-arrow"></span></a></li>
+                                    <li><a href="marketing-rules.html">Marketing Rules <span class="icon-right-arrow"></span></a></li>
                                 </ul>
                             </div>
-                            <!-- <div class="service-details__need-help">
+                            <div class="service-details__need-help">
                                 <div class="service-details__need-help-bg" style="background-image: url(assets/images/backgrounds/service-details-need-help-bg.jpg)">
                                 </div>
                                 <h2 class="service-details__need-help-title">Contact with us for any advice</h2>
@@ -165,19 +179,19 @@
                                     <p>Call Anytime</p>
                                     <a href="tel:13077760608">+ 1 (307) 776-0608</a>
                                 </div>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                     <div class="col-xl-8 col-lg-7">
                         <div class="service-details__right">
                             <div class="service-details__img">
-                                <img src="assets/images/services/service-details-img-1.jpg" alt="">
+                                <img src="assets/images/services/service-details-img-5.jpg" alt="">
                                 <div class="service-details__img-icon">
                                     <span class="icon-analysis"></span>
                                 </div>
                             </div>
                             <div class="service-details__content">
-                                <h3 class="service-details__title">Consumer Product</h3>
+                                <h3 class="service-details__title">Audit Marketing</h3>
                                 <p class="service-details__text-1">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed
                                     efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s.</p>
                                 <p class="service-details__text-2">It has survived not only five centuries. Lorem Ipsum is simply dummy text of the new design printng and type setting Ipsum take a look at our round. When an unknown printer took a galley of type and scrambled it to make
@@ -298,33 +312,6 @@
         </section>
         <!--Service Details End-->
 
-        <!-- working Hours-->
-        <div class="section-contacts-1 bg-primary wow">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="b-contacts-1 block-table">
-                            <div class="b-contacts-1__item block-table__cell">
-                                <div class="b-contacts-1__title">24/7 Support</div>
-                                <div class="b-contacts-1__info">0803 110 3211</div>
-                            </div>
-                            <div class="b-contacts-1__item block-table__cell">
-                                <div class="b-contacts-1__title">working hours</div>
-                                <div class="b-contacts-1__info"><span class="b-contacts-1__info_xs">Mon to Fri<br></span>8am - 5pm</div>
-                            </div>
-                            <div class="b-contacts-1__item block-table__cell">
-                                <div class="b-contacts-1__title">ask for a free quote</div>
-                                <div class="b-contacts-1__info b-contacts-1__info_sm"> inquiry@mugaal.com</div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- working Hours-->
-
         <!--Site Footer Start-->
         <footer class="site-footer">
             <div class="container">
@@ -334,15 +321,14 @@
                             <div class="site-footer__top-left">
                                 <div class="site-footer__top-logo-content">
                                     <a href="index.html"><img src="assets/images/logo-light-1.png" width="146" alt=""></a>
-                                    <p class="site-footer__top-text">Welcome to<br> Mugaal Resources Limited, RC114977.</p>
+                                    <p class="site-footer__top-text">Welcome to our consultancy <br> agency. Lore ipsum simply text <br> amet cing elit.</p>
                                 </div>
                                 <div class="site-footer__top-newsletter">
-                                    <h5 class="site-footer__top-newsletter-title">Subsrcibe for our Newsletter. <br> Stay current with our latest insights
-                                    </h5>
+                                    <h5 class="site-footer__top-newsletter-title">Subsrcibe for Latest Articles and Resources</h5>
                                     <form class="site-footer__top-newsletter-form">
                                         <div class="site-footer__top-newsletter-input-box">
                                             <input type="email" placeholder="Email Address" name="email">
-                                            <button type="submit" class="site-footer__top-newsletter-btn">Submit</button>
+                                            <button type="submit" class="site-footer__top-newsletter-btn">Go</button>
                                         </div>
                                     </form>
                                 </div>
@@ -356,12 +342,11 @@
                                             <div class="footer-widget__column footer-widget__explore clearfix">
                                                 <h3 class="footer-widget__title">Explore</h3>
                                                 <ul class="footer-widget__explore-list list-unstyled clearfix">
-                                                    <li><a href="#">About us</a></li>
-                                                    <li><a href="services-global-freight.html">Global Freight</a></li>
-                                                    <li><a href="#">Courier & Express</a></li>
-                                                    <li><a href="#">Haulage & Transportation</a></li>
-                                                    <li><a href="#">Warehousing</a></li>
-                                                    <li><a href="#">Custom Clearance</a></li>
+                                                    <li><a href="about.html">About</a></li>
+                                                    <li><a href="about.html">Meet our Team</a></li>
+                                                    <li><a href="cases.html">Case Stories</a></li>
+                                                    <li><a href="news.html">Latest News</a></li>
+                                                    <li><a href="contact.html">Contact</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -369,18 +354,18 @@
                                             <div class="footer-widget__column footer-widget__links clearfix">
                                                 <h3 class="footer-widget__title">Links</h3>
                                                 <ul class="footer-widget__links-list list-unstyled clearfix">
-                                                    <li><a href="index.html">Home Page</a></li>
-                                                    <li><a href="#">Request Quote</a></li>
-                                                    <li><a href="#">News</a></li>
-                                                    <li><a href="#">Contact us</a></li>
+                                                    <li><a href="about.html">About</a></li>
+                                                    <li><a href="about.html">Become a Coach</a></li>
+                                                    <li><a href="about.html">Make Appointment</a></li>
+                                                    <li><a href="contact.html">Contact</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div class="col-xl-6 col-lg-6 col-md-4 wow fadeInUp" data-wow-delay="300ms">
                                             <div class="footer-widget__column footer-widget__contact clearfix">
                                                 <h3 class="footer-widget__title">Contact</h3>
-                                                <a href="mailto:inquiry@mugaal.com">inquiry@mugaal.com</a>
-                                                <p class="footer-widget__contact-text">F&F Plaza, Adebisi Awoshoga Street,<br> Lagos State, Nigeria</p>
+                                                <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                                                <p class="footer-widget__contact-text">80 Broklyn Road Street <br> New York. USA</p>
                                             </div>
                                         </div>
                                     </div>
@@ -389,12 +374,12 @@
                                     <div class="site-footer__top-right-social">
                                         <a href="#"><i class="fab fa-twitter"></i></a>
                                         <a href="#"><i class="fab fa-facebook"></i></a>
-
+                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
                                         <a href="#"><i class="fab fa-instagram"></i></a>
                                     </div>
                                     <div class="site-footer__top-right-phone">
                                         <p class="site-footer__top-right-phone-tagline">Call Anytime</p>
-                                        <a href="tel:1307776-0608">+ 234 (803) 110-3211</a>
+                                        <a href="tel:1307776-0608">+ 1 (307) 776-0608</a>
                                     </div>
                                 </div>
                             </div>
@@ -402,7 +387,7 @@
                     </div>
                 </div>
                 <div class="site-footer__bottom">
-                    <p class="site-footer__bottom-text">© 2022 Copyrights by <a href="#">mugaal.com</a></p>
+                    <p class="site-footer__bottom-text">© 2021 Copyrights by <a href="#">Layerdrops.com</a></p>
                 </div>
             </div>
         </footer>
@@ -429,11 +414,11 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:inquiry@mugaal.com">inquiry@mugaal.com</a>
+                    <a href="mailto:needhelp@packageName__.com">needhelp@conult.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:+234803110-3211">+ 234 (803) 110-3211</a>
+                    <a href="tel:666-888-0000">666 888 0000</a>
                 </li>
             </ul>
             <!-- /.mobile-nav__contact -->
@@ -441,7 +426,7 @@
                 <div class="mobile-nav__social">
                     <a href="#" class="fab fa-twitter"></a>
                     <a href="#" class="fab fa-facebook-square"></a>
-
+                    <a href="#" class="fab fa-pinterest-p"></a>
                     <a href="#" class="fab fa-instagram"></a>
                 </div>
                 <!-- /.mobile-nav__social -->
@@ -453,9 +438,8 @@
         </div>
         <!-- /.mobile-nav__content -->
     </div>
-    <!-- /.mobile-nav -->
+    <!-- /.mobile-nav__wrapper -->
 
-    <!-- search -->
     <div class="search-popup">
         <div class="search-popup__overlay search-toggler"></div>
         <!-- /.search-popup__overlay -->
@@ -465,59 +449,44 @@
                 <!-- /.sr-only -->
                 <input type="text" id="search" placeholder="Search Here..." />
                 <button type="submit" aria-label="search submit" class="thm-btn">
-                        <i class="icon-magnifying-glass"></i>
-                    </button>
+                    <i class="icon-magnifying-glass"></i>
+                </button>
             </form>
         </div>
         <!-- /.search-popup__content -->
     </div>
-    <!-- search -->
-
-    <!-- </div> -->
+    <!-- /.search-popup -->
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script src="assets//plugins/header/slidebar.js"></script>
-    <script src="assets//plugins/header/header.js"></script>
-    <script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
-    <script src="assets/plugins/slider-pro/jquery.sliderPro.min.js"></script>
-    <script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
-    <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/plugins/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
-    <script src="assets/plugins/doubletaptogo.js"></script>
-    <script src="assets/plugins/waypoints.min.js"></script>
-    <script src="assets/plugins/flowplayer/flowplayer.min.js"></script>
-    <script src="assets/plugins/classie.js"></script>
-    <script src="assets/plugins/scrollreveal/scrollreveal.min.js"></script>
-    <script src="assets/plugins/switcher/js/dmss.js"></script>
-    <script src="assets/plugins/stellar/src/jquery.stellar.js"></script>
-    <script src="assets/plugins/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+
+    <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/odometer/odometer.min.js"></script>
+    <script src="assets/vendors/swiper/swiper.min.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/countdown/countdown.min.js"></script>
+    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendors/bxslider/jquery.bxslider.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/vegas/vegas.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/timepicker/timePicker.js"></script>
 
 
-    <!-- <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script> -->
 
-    <script src="assets/plugins/jarallax/jarallax.min.js"></script>
-    <script src="assets/plugins/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/plugins/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/plugins/jquery-circle-progress/jquery.circle-progress.min.js"></script>
 
-    <script src="assets/plugins/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/plugins/nouislider/nouislider.min.js"></script>
-    <script src="assets/plugins/odometer/odometer.min.js"></script>
-    <script src="assets/plugins/swiper/swiper.min.js"></script>
-    <script src="assets/plugins/tiny-slider/tiny-slider.min.js"></script>
-    <script src="assets/plugins/wnumb/wNumb.min.js"></script>
-    <script src="assets/plugins/wow/wow.js"></script>
-    <script src="assets/plugins/isotope/isotope.js"></script>
-    <script src="assets/plugins/countdown/countdown.min.js"></script>
-
-    <script src="assets/plugins/bxslider/jquery.bxslider.min.js"></script>
-
-    <script src="assets/plugins/vegas/vegas.min.js"></script>
-    <script src="assets/plugins/jquery-ui/jquery-ui.js"></script>
-    <script src="assets/plugins/timepicker/timePicker.js"></script>
+    <!-- template js -->
     <script src="assets/js/conult.js"></script>
 </body>
 
