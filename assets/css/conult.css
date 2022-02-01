@@ -7220,7 +7220,7 @@ ul {
 .services-page {
     position: relative;
     display: block;
-    padding: 120px 0 90px;
+    padding: 120px 0 20px;
 }
 
 
@@ -7231,7 +7231,7 @@ ul {
 .service-details {
     position: relative;
     display: block;
-    padding: 120px 0 120px;
+    padding: 100px 0 20px;
 }
 
 .service-details__sidebar {
@@ -7429,14 +7429,14 @@ ul {
 .service-details__two-icon-single {
     position: relative;
     display: block;
-    max-width: 360px;
     width: 100%;
-    padding-left: 110px;
+    padding-left: 10px;
     float: left;
+    list-style: circle;
 }
 
 .service-details__two-icon-single+.service-details__two-icon-single {
-    margin-left: 40px;
+    margin-left: 0px;
 }
 
 .service-details__two-icon {
@@ -7687,7 +7687,7 @@ ul {
 .contact-page-google-map {
     position: relative;
     display: block;
-    padding: 120px 0 41px;
+    padding: 60px 0 41px;
 }
 
 .contact-page-google-map__one {
